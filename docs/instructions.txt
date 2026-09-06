@@ -1,0 +1,25 @@
+Sanchit & Siddharth:
+
+I am attaching a pdf file giving notes & links to the data-sets involved.
+The problem involves the changing time of first bloom & full bloom for cherry blossoms in Japan, as the climatic conditions have changed over the years, and how we can model this by a dynamical equation.
+Look at the various data sets carefully, as well as the scanned note in the pdf.
+
+What you have to do first:
+Consider the following:
+variable x1 = Time of 1st Bloom
+variable x2 = Time of full bloom.
+
+We have x1, x2 for various years ("t") for various (102) observation stations in Japan. 
+
+1. From the datasets, plot x1 vs t, x2 vs t for each station. 
+
+2. For the dataset for each station, plot dx1/dt vs x1, and also dx2/dt vs x2.
+
+Note that for Kyoto, we have data both from Kaggle (1953 onwards) as well as data from Yasuyuki Aono (from around 812 AD). So for Kyoto station, analyse the data separately for each source.
+The Sakura first bloom & Sakura full bloom datasets referred to in the pdf are available from the Kaggle link provided.
+
+We need these in order to propose dynamical eqns for the system. So do these first and show me.
+Pl confirm receipt of this.
+
+-B. A.
+--
