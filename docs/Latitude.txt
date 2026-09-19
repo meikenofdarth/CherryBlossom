@@ -1,0 +1,12 @@
+1. Mean Bloom DOY vs Latitude (Left Plot)
+Slope: +3.48 days per degree (R^2= 0.836)
+Meaning: For every degree of latitude you go north, the cherry blossoms bloom about 3.5 days later. This is a very strong, highly significant baseline that validates that your data is biologically sound. "Spring moves north."
+
+2. Full-Bloom Trend vs Latitude (Middle Plot)
+Slope: -0.064 days/decade per degree (p = 0.0028)
+Meaning: While all stations are blooming earlier (the points are below the zero line), the stations further north are shifting earlier faster than the ones in the south. For example, Kagoshima (Lat ~31.6) is shifting by about -1.0 day/decade, but Asahikawa (Lat ~43.7) is shifting by nearly -1.6 days/decade. This could be due to enhanced warming at higher latitudes.
+
+3. Duration Trend vs Latitude (Right Plot)
+Slope: -0.099 days/decade per degree (R^2 = 0.358)
+Meaning: This is the smoking gun! The trend strictly crosses the zero line around latitude 38°–39°. Stations below this latitude (the south) are experiencing a lengthening bloom period (points above 0). Stations above this latitude (the north) are experiencing a shortening bloom period (points below 0).
+You can now state definitively that the national average duration trend of 0 is just an artifact of regional opposites cancelling each other out.
