@@ -1,0 +1,84 @@
+Phenology eligible rows: 5674
+Temperature stations available: 19
+Joined station-year rows: 1301
+Joined stations: 19
+Year range: 1953-2024
+Duplicate station-year rows: 0
+Missing temperature values: 0
+Joined rows by species:
+Species
+Not stated                           15
+Sargent cherry (Prunus sargentii)     4
+Stations without temperature coverage:
+Abashiri
+Aikawa
+Choshi
+Esashi
+Fukue
+Fukushima
+Gifu
+Hachijojima
+Hachinohe
+Hakodate
+Hamada
+Hamamatsu
+Hikone
+Hiroo
+Hiroshima
+Iida
+Itsuhara
+Kanazawa
+Kofu
+Kumagaya
+Kumamoto
+Kushiro
+Maebashi
+Maizuru
+Matsumoto
+Matsuyama
+Mito
+Miyakejima
+Miyako
+Miyazaki
+Monbetsu
+Morioka
+Muroran
+Nagasaki
+Nagoya
+Niigata
+Nobeoka
+Obihiro
+Okayama
+Onahama
+Oshima
+Owase
+Rumoi
+Saga
+Saigo
+Sakata
+Sapporo
+Sendai
+Shimonoseki
+Shinjo
+Shiomizumaki
+Shirakawa
+Sumoto
+Takada
+Takamatsu
+Takayama
+Tanegashima
+Tateyama
+Tokushima
+Tokyo
+Tottori
+Toyama
+Toyooka
+Tsu
+Tsuruga
+Utsunomiya
+Uwajima
+Wajima
+Wakayama
+Yakushima
+Yokohama
+Yonago

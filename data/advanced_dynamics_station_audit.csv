@@ -1,0 +1,103 @@
+source_order,site_name,currently_being_observed,first_bloom_species_notes,full_bloom_species_notes,species_notes_match,first_n,first_start_year,first_end_year,first_span_years,first_missing_within_span,first_max_gap_years,full_n,full_start_year,full_end_year,full_span_years,full_missing_within_span,full_max_gap_years,common_first_full_n,common_first_full_start_year,common_first_full_end_year,first_full_notes_discrepancy
+1,Wakkanai,True,Sargent cherry (Prunus sargentii),Sargent cherry (Prunus sargentii),True,66,1953,2025,73,7,8,64,1953,2025,73,9,9,64,1953,2025,False
+2,Rumoi,False,Sargent cherry (Prunus sargentii),Sargent cherry (Prunus sargentii),True,53,1953,2008,56,3,3,53,1953,2008,56,3,3,53,1953,2008,False
+3,Asahikawa,True,Sargent cherry (Prunus sargentii),Sargent cherry (Prunus sargentii),True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+4,Abashiri,True,Sargent cherry (Prunus sargentii),Sargent cherry (Prunus sargentii),True,68,1953,2025,73,5,3,64,1953,2025,73,9,7,64,1953,2025,False
+5,Sapporo,True,,,True,72,1953,2025,73,1,2,72,1953,2025,73,1,2,72,1953,2025,False
+6,Iwamizawa,False,Sargent cherry (Prunus sargentii),Sargent cherry (Prunus sargentii),True,54,1953,2006,54,0,1,52,1953,2006,54,2,2,52,1953,2006,False
+7,Obihiro,True,Sargent cherry (Prunus sargentii),Sargent cherry (Prunus sargentii),True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+8,Kushiro,True,Sargent cherry (Prunus sargentii),Sargent cherry (Prunus sargentii),True,54,1972,2025,54,0,1,71,1954,2025,72,1,2,54,1972,2025,False
+9,Nemuro,False,Kurile Island Cherry (Cerasus nipponica var. kurilensis),Kurile Island Cherry (Cerasus nipponica var. kurilensis),True,50,1960,2010,51,1,2,50,1960,2010,51,1,2,50,1960,2010,False
+10,Muroran,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+11,Urakawa,False,Sargent cherry (Prunus sargentii),Sargent cherry (Prunus sargentii),True,57,1953,2009,57,0,1,57,1953,2009,57,0,1,57,1953,2009,False
+12,Esashi,False,,,True,54,1953,2007,55,1,2,54,1953,2007,55,1,2,54,1953,2007,False
+13,Hakodate,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+14,Kutchan,False,"Until 1994 Sargent Cherry, from 1995 to 2006 they were Yoshino Cherry.","Until 1994 Sargent Cherry, from 1995 to 2006 they were Yoshino Cherry.",True,53,1953,2006,54,1,2,51,1954,2006,53,2,2,51,1954,2006,False
+15,Monbetsu,False,Sargent cherry (Prunus sargentii),Sargent cherry (Prunus sargentii),True,52,1956,2007,52,0,1,52,1956,2007,52,0,1,52,1956,2007,False
+16,Hiroo,False,Sargent cherry (Prunus sargentii),Sargent cherry (Prunus sargentii),True,41,1958,1998,41,0,1,41,1958,1998,41,0,1,41,1958,1998,False
+17,Shinjo,False,,,True,40,1958,1997,40,0,1,40,1958,1997,40,0,1,40,1958,1997,False
+18,Aomori,True,,,True,70,1956,2025,70,0,1,70,1956,2025,70,0,1,70,1956,2025,False
+19,Hachinohe,False,,,True,55,1953,2007,55,0,1,55,1953,2007,55,0,1,55,1953,2007,False
+20,Akita,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+21,Morioka,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+22,Miyako,False,,,True,55,1953,2007,55,0,1,55,1953,2007,55,0,1,55,1953,2007,False
+23,Sakata,False,,,True,57,1953,2009,57,0,1,57,1953,2009,57,0,1,57,1953,2009,False
+24,Yamagata,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+25,Sendai,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+26,Fukushima,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+27,Shirakawa,False,,,True,45,1953,1997,45,0,1,45,1953,1997,45,0,1,45,1953,1997,False
+28,Onahama,False,,,True,56,1953,2008,56,0,1,56,1953,2008,56,0,1,56,1953,2008,False
+29,Wajima,False,,,True,58,1953,2010,58,0,1,58,1953,2010,58,0,1,58,1953,2010,False
+30,Aikawa,False,,,True,55,1953,2007,55,0,1,55,1953,2007,55,0,1,55,1953,2007,False
+31,Niigata,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+32,Kanazawa,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+33,Toyama,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+34,Nagano,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+35,Takada,False,,,True,55,1953,2007,55,0,1,55,1953,2007,55,0,1,55,1953,2007,False
+36,Utsunomiya,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+37,Fukui,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+38,Takayama,False,,,True,53,1953,2005,53,0,1,53,1953,2005,53,0,1,53,1953,2005,False
+39,Matsumoto,False,,,True,55,1953,2007,55,0,1,55,1953,2007,55,0,1,55,1953,2007,False
+40,Maebashi,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+41,Kumagaya,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+42,Mito,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+43,Tsuruga,False,,,True,53,1953,2005,53,0,1,53,1953,2005,53,0,1,53,1953,2005,False
+44,Gifu,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+45,Nagoya,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+46,Iida,False,,,True,54,1953,2006,54,0,1,54,1953,2006,54,0,1,54,1953,2006,False
+47,Kofu,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+48,Choshi,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+49,Tsu,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+50,Hamamatsu,False,,,True,53,1953,2005,53,0,1,52,1953,2005,53,1,2,52,1953,2005,False
+51,Shizuoka,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+52,Tokyo,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+53,Owase,False,,,True,55,1953,2007,55,0,1,55,1953,2007,55,0,1,55,1953,2007,False
+54,Yokohama,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+55,Tateyama,False,,,True,38,1969,2006,38,0,1,38,1969,2006,38,0,1,38,1969,2006,False
+56,Oshima,False,,,True,52,1953,2009,57,5,4,47,1954,2009,56,9,10,47,1954,2009,False
+57,Miyakejima,False,,,True,35,1965,2000,36,1,2,34,1965,2000,36,2,2,34,1965,2000,False
+58,Hachijojima,False,,,True,57,1953,2009,57,0,1,56,1953,2009,57,1,2,56,1953,2009,False
+59,Saigo,False,,,True,56,1953,2008,56,0,1,56,1953,2008,56,0,1,56,1953,2008,False
+60,Matsue,True,,,True,73,1953,2025,73,0,1,67,1953,2025,73,6,6,67,1953,2025,False
+61,Yonago,False,,,True,55,1954,2008,55,0,1,55,1954,2008,55,0,1,55,1954,2008,False
+62,Tottori,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+63,Toyooka,False,,,True,55,1953,2007,55,0,1,55,1953,2007,55,0,1,55,1953,2007,False
+64,Maizuru,False,,,True,61,1953,2013,61,0,1,60,1953,2012,60,0,1,60,1953,2012,False
+65,Hamada,False,,,True,55,1953,2007,55,0,1,55,1953,2007,55,0,1,55,1953,2007,False
+66,Kyoto,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+67,Hikone,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+68,Hiroshima,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+69,Okayama,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+70,Kobe,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+71,Osaka,True,,,True,73,1953,2025,73,0,1,65,1957,2025,69,4,3,65,1957,2025,False
+72,Sumoto,False,,,True,50,1953,2002,50,0,1,49,1953,2002,50,1,2,49,1953,2002,False
+73,Wakayama,True,,,True,73,1953,2025,73,0,1,71,1955,2025,71,0,1,71,1955,2025,False
+74,Shiomizumaki,False,,,True,51,1958,2009,52,1,2,50,1958,2009,52,2,2,50,1958,2009,False
+75,Nara,True,,,True,72,1954,2025,72,0,1,72,1954,2025,72,0,1,72,1954,2025,False
+76,Matsuyama,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+77,Takamatsu,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+78,Uwajima,False,,,True,39,1967,2005,39,0,1,39,1967,2005,39,0,1,39,1967,2005,False
+79,Kochi,True,,,True,72,1954,2025,72,0,1,69,1955,2025,71,2,2,69,1955,2025,False
+80,Tokushima,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+81,Shimonoseki,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+82,Itsuhara,False,,,True,57,1953,2009,57,0,1,57,1953,2009,57,0,1,57,1953,2009,False
+83,Fukuoka,True,,,True,73,1953,2025,73,0,1,72,1953,2025,73,1,2,72,1953,2025,False
+84,Saga,True,,,True,73,1953,2025,73,0,1,72,1953,2025,73,1,2,72,1953,2025,False
+85,Oita,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+86,Fukue,False,,,True,57,1953,2009,57,0,1,57,1953,2009,57,0,1,57,1953,2009,False
+87,Nagasaki,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+88,Kumamoto,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+89,Nobeoka,False,,,True,37,1962,1999,38,1,2,33,1962,1994,33,0,1,33,1962,1994,False
+90,Kagoshima,True,,,True,73,1953,2025,73,0,1,73,1953,2025,73,0,1,73,1953,2025,False
+91,Miyazaki,True,,,True,55,1971,2025,55,0,1,73,1953,2025,73,0,1,55,1971,2025,False
+92,Yakushima,False,,,True,1,1991,1991,1,0,0,1,1991,1991,1,0,0,1,1991,1991,False
+93,Tanegashima,False,,,True,50,1953,2007,55,5,3,39,1953,2007,55,16,5,38,1953,2007,False
+94,Naze,True,Taiwan cherry (Prunus campanulata),Taiwan cherry (Prunus campanulata),True,61,1953,2025,73,12,12,56,1953,2024,72,16,14,56,1953,2024,False
+95,Yonaguni Island,False,Taiwan cherry (Prunus campanulata),Taiwan cherry (Prunus campanulata),True,17,1992,2008,17,0,1,16,1992,2007,16,0,1,16,1992,2007,False
+96,Ishigaki Island,True,Taiwan cherry (Prunus campanulata),Taiwan cherry (Prunus campanulata),True,70,1953,2025,73,3,3,56,1958,2022,65,9,4,55,1958,2022,False
+97,Miyakojima,True,Taiwan cherry (Prunus campanulata),Taiwan cherry (Prunus campanulata),True,54,1972,2025,54,0,1,50,1954,2025,72,22,14,45,1973,2025,False
+98,Kumejima,False,Taiwan cherry (Prunus campanulata),Taiwan cherry (Prunus campanulata),True,35,1962,2004,43,8,6,31,1962,2004,43,12,13,30,1962,2004,False
+99,Naha,True,Taiwan cherry (Prunus campanulata),Taiwan cherry (Prunus campanulata),True,52,1974,2025,52,0,1,48,1976,2024,49,1,2,48,1976,2024,False
+100,Nago,False,Taiwan cherry (Prunus campanulata),Taiwan cherry (Prunus campanulata),True,31,1972,2002,31,0,1,23,1977,2002,26,3,4,23,1977,2002,False
+101,Iriomote Island,False,Taiwan cherry (Prunus campanulata),Taiwan cherry (Prunus campanulata),True,42,1955,2002,48,6,5,24,1975,2002,28,4,4,24,1975,2002,False
+102,Minami Daito Island,True,Taiwan cherry (Prunus campanulata),Taiwan cherry (Prunus campanulata),True,53,1971,2025,55,2,2,44,1971,2022,52,8,3,44,1971,2022,False

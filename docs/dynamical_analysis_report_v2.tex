@@ -1,84 +1,365 @@
-\documentclass[11pt]{article}
+\documentclass[11pt,a4paper]{article}
+
 \usepackage[utf8]{inputenc}
-\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
 \usepackage{graphicx}
 \usepackage{geometry}
 \usepackage{hyperref}
-\geometry{a4paper, margin=1in}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{float}
+\geometry{a4paper, margin=0.9in}
+\setstretch{1.12}
+\graphicspath{{../plots/}}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+\setlist{nosep,leftmargin=*}
+\captionsetup{font=small,labelfont=bf}
+\newcommand{\plotplaceholder}[2]{%
+  \fbox{\parbox[c][#1][c]{0.92\textwidth}{\centering
+    \textbf{Plot placeholder}\\[0.4em]
+    \small #2}}}
 
-\title{Comprehensive Analysis of Cherry Blossom Phenology:\\ From Historical Trends to Driven Limit Cycles}
-\author{}
-\date{\today}
+\title{\textbf{Cherry Blossom Phenology in Japan:}\\[0.3em]
+\large Historical Change, Geographic Structure, and Temperature Response}
+\author{Sanchit Kumar Dogra \and Siddharth}
+\date{Project report\\[0.25em]\today}
 
 \begin{document}
-
 \maketitle
 
 \begin{abstract}
-This report summarizes the comprehensive analysis of cherry blossom phenology (\textit{Prunus jamasakura} and \textit{Prunus yedoensis}), bridging the 1,200-year historical Kyoto Aono dataset with the geographically broad 102-station Japanese Meteorological Agency (JMA) dataset. We document the historical shifts in bloom timing, regional variations in bloom duration, temperature sensitivities, and the evaluation of fixed physiological thresholds (degree-day models). Finally, we present the failure of linear autonomous models and introduce a \textit{Driven Tracking Dynamical Model} that successfully captures multi-century paleoclimate oscillations, specifically extracting the $\sim$179-year Suess/de Vries solar cycle from historical phenological data.
+Cherry blossom dates provide a long biological record of spring conditions in Japan. This report synthesizes two datasets: the historical Kyoto flowering record compiled by Yasuyuki Aono, extending from approximately 812~CE, and a modern network of first- and full-bloom observations at 102 Japanese stations from 1953--2025. The analyses combine historical trend estimation, a carefully restricted temperature regression, station-level trends, geographic comparisons of bloom duration, official Japan Meteorological Agency (JMA) weather observations, and tests of simple physiological and dynamical models. The main findings are that Kyoto full bloom advanced markedly after about 1850; warmer observed March temperatures are associated with earlier Kyoto full bloom; and almost all stations show earlier full bloom in common observation windows. Duration changes, in contrast, vary geographically, with station-level duration trends becoming more negative toward higher latitudes. The adopted simple response model is $D_{\mathrm{Kyoto}}=119.55-2.878T_{\mathrm{March}}$ for 72 Kyoto years ($R^2=0.720$). A focused follow-up of loop-like phase-space curves found that their geometry depends on smoothing, their smoothed trajectories do not consistently close, and a training-selected periodic term did not improve held-out predictions over a temperature-only baseline in a four-station comparison. These are exploratory dynamical diagnostics, not evidence for an established limit cycle.
 \end{abstract}
 
-\section{Historical Baselines: The Kyoto Aono Dataset}
-Our analysis commenced with the 1,200-year Aono dataset for Kyoto (spanning from 812 AD). A critical methodological correction was applied to utilize only the 118 years containing strictly \textit{observed} March temperatures, avoiding the circularity of using pre-instrumental reconstructed temperatures. 
+\tableofcontents
+\newpage
 
-The analysis yielded the following baseline trends:
-\begin{itemize}
-    \item \textbf{Pre-1850 Trend:} Stable, with a minor shift of $+0.31$ days/century.
-    \item \textbf{Post-1850 Trend:} A stark acceleration to $-7.53$ days/century (95\% CI: $[-9.16, -5.89]$), indicating a massive shift in modern phenology.
-    \item \textbf{Temperature Sensitivity:} Bloom timing advances by $-2.99$ days per $1^\circ$C increase in March temperature ($R^2 = 0.66$).
-\end{itemize}
+\section{Introduction}
 
-\section{Geographic Station Trends and Bloom Duration}
-Expanding to the modern era, we analyzed the 102 JMA stations (1953–2024). Filtering for data continuity and standard species left a robust set of stations for a common-window analysis (1961–2010).
+Flowering phenology is a visible response to seasonal environmental conditions. The timing of cherry blossom first bloom and full bloom is especially useful for communicating changes in spring because it is recorded both in long historical chronicles and in modern meteorological station networks. A bloom date may reflect temperature, winter chilling, species, local geography, observation practice, and other environmental influences.
 
-\subsection{National Advance and Latitudinal Shift}
- Nationally, 98.6\% of standard stations exhibited a negative full-bloom trend, with a median advance of $-1.27$ days/decade. Furthermore, we discovered that stations at higher latitudes are shifting earlier at a faster rate ($-0.062$ days/decade per degree latitude).
+This project began with a request to examine first bloom ($x_1$), full bloom ($x_2$), and their changes through time at Japanese stations, then use those observations to motivate dynamical equations. The work developed into four questions:
+\begin{enumerate}
+  \item How has Kyoto flowering changed across its unusually long historical record?
+  \item Is warmer spring temperature associated with earlier bloom in observed-temperature years?
+  \item Are modern changes consistent across Japan, and how does bloom duration vary geographically?
+  \item Do simple thermal-sum or dynamical models improve on transparent statistical baselines?
+\end{enumerate}
 
-\subsection{The Duration Divergence}
-While national averages suggest bloom duration (the interval between first and full bloom) is unchanged, our coordinate analysis uncovered a strict geographical structure:
-\begin{itemize}
-    \item \textbf{Duration vs. Latitude:} The duration trend exhibits a latitudinal dependence of $-0.104$ days/decade per degree ($R^2 = 0.395$).
-    \item \textbf{Regional Opposites:} Stations south of $\sim38^\circ$N are experiencing a \textit{lengthening} bloom period, while northern stations are experiencing a \textit{shortening} period. This confirms that warming triggers opposing physiological responses depending on the local winter baseline.
-\end{itemize}
+% \section{Data and study design}
 
-\section{Physiological and Baseline Dynamical Models}
-To bridge observation and mechanism, we evaluated several deterministic physical models using official JMA daily temperature observations.
+% \subsection{Two complementary observational records}
+% The Kyoto historical record compiled by Aono contains flowering dates beginning at approximately 812~CE and continuing into the modern era. It provides temporal depth for one location, but the bloom chronology and pre-instrumental temperature reconstructions must not be treated as independent when flowering dates contributed to the temperature reconstruction. The modern station dataset contains first-bloom and full-bloom dates at 102 stations in Japan, over 1953--2025 in the supplied processed series \cite{aono,assignment,readme}.
 
-\subsection{Degree-Day Thermal Sums}
-We tested a physiological 400-degree thermal-sum rule (accumulating positive temperatures from February). The fixed degree-day model yielded an out-of-sample RMSE of $7.29$ days, vastly underperforming a basic linear temperature-response baseline (RMSE $4.04$ days). Consequently, the fixed thermal sum was rejected as an accurate predictive model. 
+% The two records answer different questions. Kyoto's historical sequence is suited to a long single-location trend analysis, while the station network supports comparisons across latitude and local climate. They are not merged into a single series. The Kyoto Aono record is also distinct from the Kyoto JMA/Kaggle station series; any overlap between recent observations should be checked before treating them as independent evidence.
 
-\subsection{Autonomous Restoring Force and Moving Equilibrium}
-Attempting to map the phenology to a dynamical system, we tested an autonomous restoring-force model ($\frac{dx}{dt} = -k(x - x_{eq})$). This model failed utterly ($R^2 < 0.003$), proving the biological equilibrium is not a constant. A subsequent temperature-forced \textit{moving-equilibrium} model generated a median held-out RMSE of $4.31$ days across 19 stations, showing exploratory promise but failing to provide a universal physiological law.
+% \subsection{Canonical station-year data and date handling}
+% The station inputs were reshaped from wide annual tables into a station-year form. The resulting canonical phenology table has 7,446 rows across 102 stations; it contains no duplicate station-year rows and no negative actual-date durations. Some station-years have only one of the two flowering stages recorded, so full-bloom trends and duration analyses apply their own paired-data eligibility requirements. One same-day first/full observation (Asahikawa, 2012) is retained and flagged rather than silently altered \cite{log,architecture}.
 
-\section{Phase 2: Phase-Space Limit Cycles and Climate Drivers}
-The failure of autonomous models indicated that the environment itself is a non-stationary oscillating driver. 
+% Bloom day-of-year is normalized to a fixed non-leap reference so that dates are comparable across leap years. Bloom duration is calculated from the actual calendar dates, rather than subtracting normalized day-of-year values. This is particularly important for cross-year flowering seasons, such as Taiwan cherry, whose records should be handled separately rather than pooled with the principal species groups \cite{readme,summary}.
 
-\subsection{Empirical Discovery of Limit Cycles}
-By applying high-order smoothing splines to the bloom dates to isolate decadal climate trends, our phase-space portraits ($\frac{dx}{dt}$ vs $x$) revealed clear \textbf{elliptical limit cycles}. Because biological systems lack inertia, these limit cycles prove that the trees are dynamically tracking a moving, oscillating environmental equilibrium.
+% The principal station comparison excludes Taiwan cherry, Kurile cherry, and Kutchan, which has a documented species replacement. The cleaned broad group contains 80 stations labelled ``Not stated'' and 10 Sargent cherry stations. In the main geographic analysis, ``Not stated'' is treated as a Yoshino-group assumption; that identification has not been independently confirmed from the source documentation and is therefore a limitation, not a verified taxonomic fact \cite{summary,handoff}.
 
-\subsection{The Theoretical Driven Tracking Model}
-We formalized a Forced First-Order Tracking System. The biological system adapts to the environmental ideal state $E(t)$ at a rate $k$:
-\begin{equation}
-    \frac{dx}{dt} = -k \big( x(t) - E(t) \big)
-\end{equation}
-The environmental equilibrium $E(t)$ combines linear secular drift (anthropogenic warming) with a natural cyclic climate oscillation:
-\begin{equation}
-    E(t) = E_0 - \beta t + A \sin(\omega t + \phi)
-\end{equation}
-The analytical steady-state solution to this non-homogeneous differential equation mathematically generates the tilted elliptical spirals observed in the empirical data.
+% \subsection{Temperature and coordinate data}
+% Official JMA AMeDAS station-master coordinates replaced approximate geocoded coordinates for geographic analyses. This correction matters because errors in location can materially alter a station's latitude assignment and hence the estimated geographic relationships \cite{summary,log}.
 
-\subsection{Optimization and Link to Paleoclimatology}
-We utilized non-linear optimization to fit the theoretical steady-state solution directly to the 1,200-year Kyoto Aono dataset. The fit was remarkably successful and discovered a dominant climate oscillation period of $\mathbf{T = 179.0}$ \textbf{years}. 
+% The preferred weather layer consists of official JMA daily observations for 20 stations from 1953--2024. It contains 85,216 daily records and yields 1,355 eligible station-year joins after aggregation and matching to the phenology data. Two expected station-month blocks are absent for Nara in February and March 1953; these are documented source gaps. Earlier Open-Meteo data remain useful as a comparison layer, but JMA observations are preferred for the final weather-dependent analyses \cite{summary,log,handoff}.
 
-This finding aligns profoundly with the well-documented \textbf{Suess/de Vries solar cycle} ($\sim 200$ years), a major driver of paleoclimate variability (e.g., Amano et al., 2010; Kazui, 2008). 
+% \subsection{Data quality and dependence}
+% Missing bloom stages are preserved rather than imputed. Models report or imply differing sample sizes because they require different combinations of bloom stage, weather, or consecutive observations. Station records also have unequal temporal coverage. Common-window analyses help reduce this comparability problem, but they do not make nearby stations statistically independent: neighbouring stations share regional weather and climate. Station shares and medians are therefore used descriptively and are not interpreted as 90 independent replications \cite{architecture,log}.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.7\textwidth]{images/Phase2_Theoretical_Fit_Aono.png} % PLACEHOLDER
-    \caption{Theoretical Driven-Equilibrium Model Fit on the 1,200-year Aono dataset, isolating the $\sim$179-year Suess/de Vries climate cycle.}
+\section{Kyoto: historical change and temperature association}
+
+\subsection{Historical trend structure}
+Piecewise linear analyses of Aono Kyoto full-bloom day-of-year distinguish the pre- and post-1850 periods. The estimated pre-1850 trend is $+0.31$ days per century, a small shift toward later dates. The post-1850 trend is $-7.53$ days per century, indicating substantially earlier bloom.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.88\textwidth]{images/step1_doy_vs_year.png}
+  \caption{Aono Kyoto full-bloom day-of-year across the long historical record.}
+  \label{fig:kyoto-history}
 \end{figure}
 
-\section{Conclusion}
-This extensive analysis confirms that Japanese cherry blossoms are blooming progressively earlier due to anthropogenic warming, with complex geographical divergences in bloom duration. Furthermore, by deriving and optimizing the Driven Tracking Model, we have proven that historical phenology acts as a biological low-pass filter, successfully extracting multi-century solar-climate cycles directly from biological phase-space limit cycles.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.78\textwidth]{images/doy_trends_split.png}
+  \caption{Kyoto trend comparison across historical periods.}
+  \label{fig:kyoto-split}
+\end{figure}
+
+\subsection{Observed March temperature model}
+An early analysis mixed instrumental temperature observations with pre-instrumental reconstructions partly informed by the flowering record. That design introduced circularity and generated an overly optimistic association. For temperature inference, the project therefore restricts the historical Aono analysis to years with observed temperature data. The historical Aono analysis reports 118 overlapping observed-temperature and bloom years, with an OLS temperature sensitivity of approximately $-2.99$ days per $^\circ$C and $R^2=0.6623$.
+
+The current adopted simple model uses the official Kyoto JMA station-weather join and 72 station-weather years:
+\begin{equation}
+  D_{\mathrm{Kyoto}} = 119.55 - 2.878\,T_{\mathrm{March}},
+  \label{eq:kyoto-jma}
+\end{equation}
+where $D_{\mathrm{Kyoto}}$ is full-bloom day-of-year and $T_{\mathrm{March}}$ is mean March temperature in degrees Celsius. The slope's 95\% confidence interval is $[-3.305,-2.450]$ days/$^\circ$C, with $R^2=0.720$. Thus, in this fitted sample, a $1^\circ$C warmer March is associated with full bloom about 2.9 days earlier. Equation~\ref{eq:kyoto-jma} is an interpretable empirical response and not proof that temperature is the only driver.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.78\textwidth]{images/kyoto_observed_doy_vs_temperature.png}
+  \caption{Kyoto bloom day-of-year versus observed March temperature.}
+  \label{fig:kyoto-temperature}
+\end{figure}
+
+\section{Japanese station network: trend and regional structure}
+
+% \subsection{Common-window full-bloom trends}
+% The main common-window comparison uses 1961--2010 and requires at least 40 valid full-bloom observations per station. It retains 73 stations labelled ``Not stated'' and 8 Sargent cherry stations. Negative slopes indicate earlier full bloom. In this window, 98.6\% of the ``Not stated'' stations have negative trends, with a median of $-1.27$ days per decade and interquartile range $[-1.58,-0.96]$. Among Sargent stations, 87.5\% have negative trends and the median is $-1.09$ days per decade (IQR $[-1.44,-0.81]$) \cite{summary,log}.
+
+% The direction of the full-bloom result is robust to the tested windows. Among ``Not stated'' stations, the proportion with negative trends is 98.6\% in 1961--2010, 98.0\% in 1971--2020, and 97.9\% in 1976--2025. The median trend becomes more negative across these windows: $-1.27$, $-1.36$, and $-1.62$ days per decade, respectively. Bloom-duration medians are more window-sensitive: $+0.30$, $+0.24$, and $+0.10$ days per decade \cite{summary,log}. This contrast supports a broad national advance in full bloom, while warranting more caution about a single nationwide duration trend.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.86\textwidth]{images/histogram_full_trends.png}
+  \caption{Distribution of cleaned JMA station full-bloom trends.}
+  \label{fig:trend-distribution}
+\end{figure}
+
+% The network pattern is not universal at every station. Aikawa's full-bloom trend is approximately $-0.02$ days per decade, while Yonaguni has only 16 observations and correspondingly low power. These examples motivate network-level summaries and caution against presenting an individual station as representative of all Japan \cite{summary,log}.
+
+\subsection{Latitude and bloom duration}
+Official-coordinate regressions across 73 common-window Yoshino-group stations show three descriptive geographic patterns. First, mean full-bloom date occurs later toward the north. Second, full-bloom trends become more negative at higher latitude. Third, duration trends also become more negative with latitude.
+
+The last result indicates that a near-zero national duration summary can conceal opposing regional changes: duration more often lengthens at lower-latitude stations and shortens or changes less at northern stations.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.90\textwidth]{images/latitude_regressions.png}
+  \caption{Station mean full-bloom date, full-bloom trend, and duration trend against official JMA latitude.}
+  \label{fig:latitude}
+\end{figure}
+
+\subsection{Temperature sensitivity of duration}
+Weather regressions add evidence that duration responses differ across regions. In the JMA analysis, duration-temperature slopes are positive at several southern and central stations, including Kyoto ($+1.18$), Fukuoka ($+1.37$), and Kagoshima ($+1.10$) days per $^\circ$C, and negative at northern examples including Aomori ($-0.21$), Akita ($-0.10$), and Wakkanai ($-0.28$) days per $^\circ$C.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.88\textwidth]{images/temperature_sensitivity.png}
+  \caption{Station-level bloom and duration temperature sensitivities.}
+  \label{fig:temperature-sensitivity}
+\end{figure}
+
+\section{Per-station advanced plots and the limit-cycle hypothesis}
+
+The folder \texttt{plots/JMA-102\_cities\_plots/advanced\_dynamics} contains station-by-station four-panel plots for first bloom ($x_1$) and full bloom ($x_2$). Each figure places the annual observations and a smoothing spline in the time domain alongside a phase-space plot of the smoothed state against its time derivative, $dx/dt$ versus $x$. The path is colored by year and endpoints are marked. These plots extend the original request to inspect both bloom dates and their rates of change; they are useful exploratory visualizations across the station network.
+
+The plotting script, \texttt{scripts/advanced\_dynamics\_102.py}, normalizes calendar dates to a non-leap reference year, fits a cubic \texttt{UnivariateSpline} with smoothing parameter $s=25n$, evaluates its derivative, and plots $x_{\rm smooth}(t)$ against $dx_{\rm smooth}/dt$. Raw finite-difference derivatives are also shown as gray points. The smoothing spline is a descriptive smoother; it is not fitted from an independently specified biological differential equation. Therefore, a loop in the phase plane is a candidate pattern to investigate, not by itself evidence of an attracting limit cycle.
+
+A limit cycle in the dynamical-systems sense is a closed, isolated periodic orbit approached by nearby trajectories of an autonomous system. In the current station figures, time advances only once along the record; start and end points generally differ, and a smoothed finite-duration path can appear loop-like even when it is a transient response, secular drift, or a smoothing artifact. An externally forced periodic response could also produce loops in an augmented state-forcing phase space, but demonstrating that requires identifying and validating the forcing and showing repeatability over cycles. The current 1953--2025 station series spans only about 72 years, which is not enough by itself to establish a multi-decadal or centennial cycle. In addition, the supplied Aono phase-space plot applies a very large smoothing factor across a far longer record, which imposes a different time scale and must be analysed separately from the JMA stations.
+
+The existing advanced plots show substantial station-to-station variation. Kyoto and Osaka show relatively smooth, open arcs for both bloom stages, consistent with a long-term advance in bloom dates but not closed orbits. Wakkanai displays more strongly curved and partly looping paths, although its endpoints remain separated and the spline path changes shape over time. Kagoshima shows a comparatively simple trajectory for first bloom and a broad curved path for full bloom. Sparse records such as Yonaguni produce highly oscillatory fitted curves and very large derivative scales, so their apparent loops are especially vulnerable to spline behavior. These are qualitative observations from the plots, not a network-wide statistical test.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\textwidth]{images/066_Kyoto_advanced.png}
+  \caption{Kyoto station advanced dynamics plot. Top panels show first bloom; bottom panels show full bloom. Right panels plot spline-derived $dx/dt$ against bloom DOY, with color indicating year. The open trajectory should not be interpreted as a verified limit cycle.}
+  \label{fig:kyoto-advanced}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\textwidth]{images/001_Wakkanai_advanced.png}
+  \caption{Wakkanai advanced dynamics plot. Its curved and partly loop-like paths illustrate why endpoint closure, time ordering, smoothing sensitivity, and repeatability must be tested quantitatively.}
+  \label{fig:wakkanai-advanced}
+\end{figure}
+
+\subsection{Focused quantitative follow-up}
+
+The initial numerical follow-up focused on Kyoto, Wakkanai, Kagoshima and Osaka, chosen to span contrasting locations and plotted trajectories. A coverage audit of all 102 stations found at least 40 years with both first- and full-bloom observations at 92 stations. The shared first/full-bloom sample sizes for the four representative stations are 73 years for Kyoto, 64 for Wakkanai, 73 for Kagoshima and 65 for Osaka. Subsequent comparisons treat first and full bloom separately and retain actual observation years, leap-year-normalized DOY and missing-year gaps.
+
+\begin{table}[H]
+  \centering
+  \caption{Shared first- and full-bloom coverage for the representative stations.}
+  \label{tab:dynamics-coverage}
+  \begin{tabular}{lrr}
+    \toprule
+    Station & Shared years & First--last observed year \\
+    \midrule
+    Kyoto & 73 & 1953--2025 \\
+    Wakkanai & 64 & 1953--2025 \\
+    Kagoshima & 73 & 1953--2025 \\
+    Osaka & 65 & 1957--2025 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsubsection{Sensitivity to smoothing and derivatives}
+
+Phase-space paths were compared across cubic smoothing splines with residual budgets of $s/n=0,5,25,100$ and Gaussian-kernel smoothers with 3-, 7- and 12-year bandwidths. Annual finite differences used actual year spacing and served as a noisy reference. The interpolating spline ($s/n=0$) produced a median of 45.5 first-bloom and 46.5 full-bloom direction reversals across the four stations. At $s/n=25$, these medians fell to 2 and 1; the $s/n=100$ fits had the same median fit errors and reversal counts. The 7-year kernel estimates produced median reversal counts of 1.5 and 2. This large change shows that the dense loop geometry under weak smoothing is not robust to the smoothing choice. The less wiggly curves are also generated from a single observed variable and its derivative, so they remain descriptive paths rather than independently identified biological orbits.
+
+\begin{figure}[H]
+  \centering
+  \plotplaceholder{1.45in}{Insert the four station smoothing-sensitivity plots: \\ \texttt{kyoto\_sensitivity.png}, \texttt{wakkanai\_sensitivity.png}, \texttt{kagoshima\_sensitivity.png}, and \texttt{osaka\_sensitivity.png}.}
+  \caption{Phase-space sensitivity to smoothing and derivative estimation. Raw finite differences, four spline settings and three Gaussian-kernel bandwidths are compared for first and full bloom.}
+  \label{fig:smoothing-sensitivity}
+\end{figure}
+
+\subsubsection{Trend removal and candidate periods}
+
+To separate secular change from candidate oscillation, annual DOY values were detrended using linear, quadratic and $s/n=25$ smoothing-spline fits. For each residual series, sinusoids over periods of 3--30 years were scanned using actual observation years, so missing years were not treated as equally spaced observations. Most leading peaks were similar across the three trend specifications, but they explained only about 10--18\% of residual variance. Wakkanai first bloom was notably sensitive to detrending: the linear fit's largest peak occurred at the 30-year boundary, whereas quadratic and spline detrending gave peaks near 6.7 years. The boundary peak is unresolved by this record. The screen does not correct for searching many periods or provide an autocorrelation-aware significance test; none of these values is treated as an estimated biological cycle.
+
+\begin{figure}[H]
+  \centering
+  \plotplaceholder{1.45in}{Insert \\ \texttt{kyoto\_trend\_period\_screen.png}, \texttt{wakkanai\_trend\_period\_screen.png}, \\ \texttt{kagoshima\_trend\_period\_screen.png}, and \texttt{osaka\_trend\_period\_screen.png}.}
+  \caption{Observed bloom dates with alternative trend fits and sinusoid scans of the corresponding residuals. Candidate peaks are exploratory and are not significance-tested.}
+  \label{fig:period-screen}
+\end{figure}
+
+\subsubsection{Recurrence, closure and temperature state}
+
+Recurrence diagnostics compared raw finite-difference paths, $s/n=25$ splines and 7-year Gaussian-kernel paths. A return was defined in advance as a pair of states at least eight years apart and within 0.10 scaled phase-space units; direction agreement was also recorded. The median start-to-end distance divided by total path length was 0.418 for spline paths and 0.328 for kernel paths, where zero would indicate exact endpoint closure. The smooth trajectories therefore did not consistently close. Close, similarly directed state pairs appeared in only a subset of station, bloom-stage and smoothing combinations. Raw finite-difference paths generated many close pairs, but their jaggedness and overlapping pairs make those counts unsuitable as counts of independent cycles.
+
+As a descriptive forcing check, bloom-date anomalies were plotted against matched JMA February--March temperature anomalies after removing a linear trend from each variable. The median residual correlation across the eight station/stage pairs was $-0.538$. This co-variation is consistent with earlier bloom in warmer years; the temperature-state paths do not by themselves demonstrate a recurrent forced orbit.
+
+\begin{figure}[H]
+  \centering
+  \plotplaceholder{1.45in}{Insert \\ \texttt{kyoto\_recurrence.png}, \texttt{wakkanai\_recurrence.png}, \\ \texttt{kagoshima\_recurrence.png}, and \texttt{osaka\_recurrence.png}.}
+  \caption{Observed and smoothed state-rate paths, together with bloom-date versus detrended JMA temperature paths. Endpoint and recurrence summaries vary across representations.}
+  \label{fig:recurrence-audit}
+\end{figure}
+
+\subsubsection{Chronological held-out model comparison}
+
+The candidate models were compared on identical JMA-matched consecutive-year samples, training through 1990 and testing after 1990. Temperature predictors use the JMA February--March mean; the adopted Kyoto equation elsewhere in this report uses March mean temperature. The periodic model added a sinusoid to the trend-and-temperature regression,
+\begin{equation}
+  D_t=a+bt+cT_t+A\sin\!\left(\frac{2\pi t}{P}\right)+B\cos\!\left(\frac{2\pi t}{P}\right)+e_t,
+  \label{eq:periodic-holdout}
+\end{equation}
+with period $P$ selected using training observations only over a prespecified 3-year to 15-year range, capped at half the training-record span. The autoregressive model added the previous year's observed bloom date and is therefore a one-step-ahead prediction, not a recursive multi-year forecast. Across eight station/stage combinations, each test sample contained 34 years and training samples ranged from 26 to 37 years.
+
+\begin{table}[H]
+  \centering
+  \caption{Median held-out RMSE across four stations and two bloom stages.}
+  \label{tab:cycle-model-holdout}
+  \begin{tabular}{lr}
+    \toprule
+    Model & Median test RMSE (days) \\
+    \midrule
+    Temperature only & 4.195 \\
+    Trend only & 6.098 \\
+    Trend plus temperature & 4.502 \\
+    Trend, temperature and training-selected period & 4.823 \\
+    AR(1), trend and temperature (one-step) & 4.446 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+The periodic model beat the temperature-only baseline in only one of the eight station/stage comparisons. The one-step AR model beat it in four of eight cases, but had a higher median test RMSE. This small, four-station comparison provides no held-out evidence that adding a periodic component improves bloom-date prediction. The period scan and this validation exercise are exploratory and do not establish or exclude periodic behavior throughout the full network.
+
+\begin{figure}[H]
+  \centering
+  \plotplaceholder{1.45in}{Insert \\ \texttt{kyoto\_heldout\_predictions.png}, \texttt{wakkanai\_heldout\_predictions.png}, \\ \texttt{kagoshima\_heldout\_predictions.png}, and \texttt{osaka\_heldout\_predictions.png}.}
+  \caption{Observed bloom dates and held-out predictions for trend, temperature, periodic and one-step autoregressive models. The temperature-only model had the lowest median test RMSE.}
+  \label{fig:recurrence-model-holdout}
+\end{figure}
+
+\subsection{A cautious dynamical interpretation}
+The weak autonomous restoring-force regression does not settle the limit-cycle question. That model tests a narrow linear relationship between rate and state, while a periodic orbit would require recurrent direction changes and return to approximately the same phase-space state. Conversely, the appearance of a loop after spline smoothing does not rescue the restoring-force hypothesis: the plotted derivative is calculated from the same smoothed series, so the visual geometry depends on the smoothing choice and time window.
+
+A useful distinction remains between (i) an autonomous oscillation, (ii) a response to an external periodic driver, (iii) a slowly moving equilibrium with trend, and (iv) a finite-record or smoothing artifact. The analyses above have completed an initial four-station audit of smoothing, candidate periods, recurrence and held-out prediction. Their consistent implication is that visual loop shape alone is not stable evidence: raw derivatives are noisy, smooth paths generally remain open, candidate-period variance explained is modest, and a periodic term did not improve held-out predictions. Stronger claims would require a network-wide preregistered analysis, uncertainty assessment that accounts for serial dependence and period search, and independent climate-driver validation. The Aono Kyoto record remains a separate long-timescale analysis and is not pooled with the modern station series.
+
+\section{Physical-response model tests}
+
+\subsection{Fixed degree-day baseline}
+A transparent thermal-sum baseline accumulated positive temperatures above a $0^\circ$C base, starting on February~1, until a fixed threshold of 400 degree-days was reached. This implementation does not represent winter chilling, station- or species-specific thresholds, or uncertainty in the start date. Results are not optimal, thus this approach was discarded.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.78\textwidth]{images/step4_physical_equation.png}
+  \caption{Illustration of the fixed degree-day comparison. }
+  \label{fig:degree-day}
+\end{figure}
+
+\subsection{Autonomous restoring force}
+The initial dynamical test considered a simple autonomous restoring force for annual bloom DOY:
+\begin{equation}
+  \frac{dD}{dt}=-kD+c,
+  \label{eq:restoring}
+\end{equation}
+where $D$ is bloom day-of-year, $k$ is a relaxation parameter, and $c$ is a constant. For four examined stations (Wakkanai, Kagoshima, Matsumoto, and Kyoto), fits to annual phase-space derivatives had $R^2$ values below 0.003, and confidence intervals for the relaxation parameter included zero. The fitted equilibrium estimates were also poorly constrained. Equation~\ref{eq:restoring} therefore does not explain the observed annual station behavior in this analysis.
+
+Derivative-versus-state plots can be useful diagnostics, but estimating derivatives from sparse, noisy annual data amplifies observation noise. The project plotting workflow uses actual year spacing and leap-year-normalized dates for the JMA station plots; even with these safeguards, visual loops should not automatically be interpreted as stable limit cycles or as evidence of an autonomous biological oscillator.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.83\textwidth]{images/station_phase_space_selected_jma.png}
+  \caption{Selected station phase-space diagnostics using JMA data.}
+  \label{fig:phase-space}
+\end{figure}
+
+\subsection{Temperature-forced moving equilibrium}
+A moving-equilibrium model was tested as a modest extension of the temperature baseline. In the discrete formulation,
+\begin{equation}
+  D_{s,t}=a_s+\phi_sD_{s,t-1}+\beta_sT_{s,t}+\gamma_st+e_{s,t},
+  \label{eq:moving}
+\end{equation}
+where $s$ denotes station, $t$ year, $T$ is temperature, and $e$ is residual variation. The coefficient $\phi_s$ represents persistence in this regression; its interpretation as a biological relaxation rate requires care. The evaluation used consecutive years, trained through 1990, tested after 1990, and compared models on matched station splits.
+
+With JMA weather, the moving-equilibrium model's median test RMSE is 4.3176 days, versus 4.0455 days for the matched station-specific baseline, and it improves test error at 9 of 19 stations. All 19 relaxation confidence intervals include zero.
+
+\section{Synthesis and interpretation}
+
+Three levels of evidence emerge. First, the long Kyoto record shows a marked post-1850 shift toward earlier full bloom. Second, the modern station network shows a consistent advance in full bloom over multiple common windows. Third, observed JMA temperatures are associated with bloom timing at Kyoto, and station temperature analyses indicate that the duration response differs geographically.
+
+The central model result for now is simple: equation~\ref{eq:kyoto-jma} offers a clear response to March temperature with a documented sample, fit statistic, and uncertainty interval. The richer physical and dynamical candidates have not demonstrated a reliable predictive advantage under the preferred JMA held-out comparisons. The focused limit-cycle follow-up reinforces this conclusion: among four representative stations, the smoothed paths generally remained open, candidate periods explained a modest share of detrended variance, and a training-selected periodic term rarely improved held-out predictions over temperature alone. The 102-station advanced plots remain useful exploratory visualizations, but they do not establish an autonomous limit cycle, periodic climate response, or tipping point.
+
+% \section{Limitations}
+% \begin{enumerate}
+%   \item \textbf{Observational inference:} Regressions identify associations and are vulnerable to confounding by correlated climate and ecological factors.
+%   \item \textbf{Species labels:} The ``Not stated = Yoshino'' assignment is an assumption awaiting confirmation from source documentation. Species groups should not be pooled without checking comparability.
+%   \item \textbf{Spatial dependence:} Nearby stations share weather and climate; station-level trends are not independent experiments. The current simple regressions do not fully model spatial covariance.
+%   \item \textbf{Uneven temporal coverage:} Station start/end years and missing bloom stages vary. Common windows reduce, but do not eliminate, selection and coverage effects.
+%   \item \textbf{Weather coverage:} Official JMA weather is available for 20 stations, fewer than the phenology network. Nara has a documented February--March 1953 source gap.
+%   \item \textbf{Temperature-model scope:} Equation~\ref{eq:kyoto-jma} is empirical. Chilling, daily heat accumulation, species-specific development, and station effects are not fully represented.
+%   \item \textbf{Historical source dependence:} Reconstructed pre-instrumental temperatures must not be used as independent predictors when they incorporate flowering observations. Potential overlap between recent Aono and station series also needs checking.
+%   \item \textbf{Dynamical diagnostics:} Numerical derivatives of annual data are noisy. Phase-space shapes and smoothing choices alone cannot establish a limit cycle or a tipping mechanism.
+% \end{enumerate}
+
+% \section{Conclusions}
+% The analyses assembled in this project show a substantial advance in Kyoto full bloom after approximately 1850 and a robust pattern of earlier full bloom across nearly all eligible stations in the tested modern common windows. The observed-temperature relationship at Kyoto is strong and interpretable: with official JMA weather, the adopted equation is $D_{\mathrm{Kyoto}}=119.55-2.878T_{\mathrm{March}}$ for 72 station-weather years, with $R^2=0.720$ and a slope confidence interval of $[-3.305,-2.450]$ days/$^\circ$C.
+
+% Geographic analyses indicate that bloom duration does not move uniformly across Japan. Duration trends become more negative with latitude, and JMA duration-temperature slopes also differ between southern/central and northern examples. These findings should be presented as regional associations, not as proven physiological mechanisms. A fixed 400 degree-day rule and a moving-equilibrium model did not beat their matched linear baselines in the preferred JMA tests, while an autonomous restoring-force fit was weak. No tipping point, bifurcation, or irreversible regime shift has been demonstrated in the cherry data.
+
+% The most defensible synthesis is therefore a descriptive and empirical one: Japanese cherry flowering has advanced, observed spring temperature explains a meaningful part of Kyoto's variation, and regional context matters especially for bloom duration. The next scientific improvement would be to confirm species labels, assess source overlap, and develop a spatially aware model of first bloom, full bloom, and duration using independent temperature observations and explicit held-out validation.
+
+\section{Future work}
+
+The four-station follow-up provides an initial, cautious answer to the limit-cycle question. Further work should focus on assessing whether these results generalize and whether any candidate periodic component survives stronger validation, rather than treating a visually loop-like curve as a dynamical result.
+
+\begin{enumerate}
+  \item \textbf{Expand the prespecified audit across eligible stations.} Apply the established coverage, smoothing, period and recurrence summaries to well-sampled stations, analyzing first and full bloom separately. Summarize station results with spatial dependence in mind; do not treat neighboring stations as independent replicates.
+  \item \textbf{Strengthen period inference.} Use an autocorrelation-aware null or block-resampling method, account for the search across candidate periods and detrending choices, and report uncertainty. Treat a peak near a search boundary as unresolved and avoid period claims when the record contains too few repeats.
+  \item \textbf{Validate externally forced dynamics.} Test whether independent temperature histories explain recurring bloom-state changes beyond the established temperature baseline. Distinguish contemporaneous association from a periodic forcing mechanism.
+  \item \textbf{Broaden prediction validation only if justified.} Use repeated chronological holdouts or rolling-origin forecasts for candidate models and retain the temperature-only model as a baseline. For autoregressive models, distinguish one-step predictions that use the previous observed bloom from recursive forecasts.
+  \item \textbf{Keep the historical Kyoto series separate.} Analyze the Aono record on its own timescale, verify possible overlap with modern Kyoto observations, and do not infer a station-network cycle from the long record at one location.
+  \item \textbf{Complete the report and source audit.} Confirm species metadata and recent Aono/JMA overlap, replace the labeled plot placeholders with the selected figures, and keep all conclusions consistent with the exploratory limits of these analyses.
+\end{enumerate}
+
+\section*{Current evidence level}
+
+The current evidence supports the first category: \textbf{no robust limit-cycle signal has been established in the analyses completed so far}. The four-station results do not rule out periodic structure elsewhere in the network; they show that the present visual loops and candidate periods are insufficient to support that claim. A periodic response should be described as validated only if it survives prespecified uncertainty-aware tests and improves prediction against matched trend and temperature baselines.
+
+\begin{thebibliography}{9}
+\bibitem{aono}
+Aono, Y. (n.d.). \emph{Historical Kyoto cherry blossom flowering and temperature data}. NOAA National Centers for Environmental Information, Paleoclimatology archive. \url{https://www.ncei.noaa.gov/pub/data/paleo/historical/phenology/japan/}.
+
+\bibitem{jma}
+Japan Meteorological Agency. (n.d.). \emph{Historical meteorological data and AMeDAS station information}. \url{https://www.jma.go.jp/jma/indexe.html}.
+
+\bibitem{kaggle}
+Glasnap, R. (n.d.). \emph{Japanese cherry blossom data}. Kaggle. \url{https://www.kaggle.com/datasets/ryanglasnapp/japanese-cherry-blossom-data}.
+
+\bibitem{sunny}
+Sunny, E. M., Balakrishnan, J., \& Kurths, J. (2023). Predicting climatic tipping points. \emph{Chaos}, 33, 021101. \url{https://doi.org/10.1063/5.0135266}.
+\end{thebibliography}
 
 \end{document}

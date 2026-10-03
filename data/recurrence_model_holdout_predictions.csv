@@ -1,0 +1,1361 @@
+station,bloom_stage,model,year,observed_doy,predicted_doy,selected_period_years
+Kyoto,First bloom,Temperature only,1991,89.0,88.48306996950427,
+Kyoto,First bloom,Temperature only,1992,86.0,86.66657501914244,
+Kyoto,First bloom,Temperature only,1993,87.0,88.68676316961711,
+Kyoto,First bloom,Temperature only,1994,93.0,92.11312969636356,
+Kyoto,First bloom,Temperature only,1995,90.0,89.02728059000775,
+Kyoto,First bloom,Temperature only,1996,90.0,92.64889744302049,
+Kyoto,First bloom,Temperature only,1997,85.0,88.08946886665998,
+Kyoto,First bloom,Temperature only,1998,83.0,83.2642032817649,
+Kyoto,First bloom,Temperature only,1999,84.0,87.01154091171945,
+Kyoto,First bloom,Temperature only,2000,93.0,93.24705022306621,
+Kyoto,First bloom,Temperature only,2001,83.0,88.32916844053014,
+Kyoto,First bloom,Temperature only,2002,77.0,83.81746693338451,
+Kyoto,First bloom,Temperature only,2003,87.0,90.17002001771145,
+Kyoto,First bloom,Temperature only,2004,83.0,85.39855469531918,
+Kyoto,First bloom,Temperature only,2005,92.0,90.4621997386275,
+Kyoto,First bloom,Temperature only,2006,86.0,89.79390772497786,
+Kyoto,First bloom,Temperature only,2007,84.0,84.64911129182497,
+Kyoto,First bloom,Temperature only,2008,83.0,89.59972872135933,
+Kyoto,First bloom,Temperature only,2009,78.0,85.32726562270568,
+Kyoto,First bloom,Temperature only,2010,78.0,85.71798621564938,
+Kyoto,First bloom,Temperature only,2011,87.0,89.65193973702043,
+Kyoto,First bloom,Temperature only,2012,93.0,90.91442654929575,
+Kyoto,First bloom,Temperature only,2013,81.0,87.72302685716407,
+Kyoto,First bloom,Temperature only,2014,86.0,87.93783059546487,
+Kyoto,First bloom,Temperature only,2015,86.0,86.19779686480405,
+Kyoto,First bloom,Temperature only,2016,82.0,83.89373659208228,
+Kyoto,First bloom,Temperature only,2017,90.0,89.41347466739339,
+Kyoto,First bloom,Temperature only,2018,81.0,85.57190321354825,
+Kyoto,First bloom,Temperature only,2019,86.0,83.55719228879589,
+Kyoto,First bloom,Temperature only,2020,81.0,81.83884042576115,
+Kyoto,First bloom,Temperature only,2021,75.0,78.61629480646302,
+Kyoto,First bloom,Temperature only,2022,83.0,86.33318083013157,
+Kyoto,First bloom,Temperature only,2023,76.0,80.36517581753279,
+Kyoto,First bloom,Temperature only,2024,88.0,83.94995619910749,
+Kyoto,First bloom,Trend only,1991,89.0,90.22072072072075,
+Kyoto,First bloom,Trend only,1992,86.0,90.17543859649126,
+Kyoto,First bloom,Trend only,1993,87.0,90.13015647226176,
+Kyoto,First bloom,Trend only,1994,93.0,90.08487434803227,
+Kyoto,First bloom,Trend only,1995,90.0,90.03959222380277,
+Kyoto,First bloom,Trend only,1996,90.0,89.99431009957328,
+Kyoto,First bloom,Trend only,1997,85.0,89.94902797534378,
+Kyoto,First bloom,Trend only,1998,83.0,89.9037458511143,
+Kyoto,First bloom,Trend only,1999,84.0,89.8584637268848,
+Kyoto,First bloom,Trend only,2000,93.0,89.8131816026553,
+Kyoto,First bloom,Trend only,2001,83.0,89.76789947842582,
+Kyoto,First bloom,Trend only,2002,77.0,89.72261735419632,
+Kyoto,First bloom,Trend only,2003,87.0,89.67733522996683,
+Kyoto,First bloom,Trend only,2004,83.0,89.63205310573733,
+Kyoto,First bloom,Trend only,2005,92.0,89.58677098150784,
+Kyoto,First bloom,Trend only,2006,86.0,89.54148885727834,
+Kyoto,First bloom,Trend only,2007,84.0,89.49620673304885,
+Kyoto,First bloom,Trend only,2008,83.0,89.45092460881935,
+Kyoto,First bloom,Trend only,2009,78.0,89.40564248458986,
+Kyoto,First bloom,Trend only,2010,78.0,89.36036036036036,
+Kyoto,First bloom,Trend only,2011,87.0,89.31507823613087,
+Kyoto,First bloom,Trend only,2012,93.0,89.26979611190139,
+Kyoto,First bloom,Trend only,2013,81.0,89.22451398767188,
+Kyoto,First bloom,Trend only,2014,86.0,89.1792318634424,
+Kyoto,First bloom,Trend only,2015,86.0,89.1339497392129,
+Kyoto,First bloom,Trend only,2016,82.0,89.08866761498341,
+Kyoto,First bloom,Trend only,2017,90.0,89.0433854907539,
+Kyoto,First bloom,Trend only,2018,81.0,88.99810336652442,
+Kyoto,First bloom,Trend only,2019,86.0,88.95282124229492,
+Kyoto,First bloom,Trend only,2020,81.0,88.90753911806543,
+Kyoto,First bloom,Trend only,2021,75.0,88.86225699383593,
+Kyoto,First bloom,Trend only,2022,83.0,88.81697486960644,
+Kyoto,First bloom,Trend only,2023,76.0,88.77169274537694,
+Kyoto,First bloom,Trend only,2024,88.0,88.72641062114745,
+Kyoto,First bloom,Trend + temperature,1991,89.0,88.33151448293853,
+Kyoto,First bloom,Trend + temperature,1992,86.0,86.51093160782597,
+Kyoto,First bloom,Trend + temperature,1993,87.0,88.51814981820802,
+Kyoto,First bloom,Trend + temperature,1994,93.0,91.92829106748235,
+Kyoto,First bloom,Trend + temperature,1995,90.0,88.84129262233444,
+Kyoto,First bloom,Trend + temperature,1996,90.0,92.44623218858791,
+Kyoto,First bloom,Trend + temperature,1997,85.0,87.88906564599752,
+Kyoto,First bloom,Trend + temperature,1998,83.0,83.06667751405787,
+Kyoto,First bloom,Trend + temperature,1999,84.0,86.79704681057552,
+Kyoto,First bloom,Trend + temperature,2000,93.0,93.00982761010565,
+Kyoto,First bloom,Trend + temperature,2001,83.0,88.09503768929078,
+Kyoto,First bloom,Trend + temperature,2002,77.0,83.58548772658115,
+Kyoto,First bloom,Trend + temperature,2003,87.0,89.91504133989052,
+Kyoto,First bloom,Trend + temperature,2004,83.0,85.14632892152835,
+Kyoto,First bloom,Trend + temperature,2005,92.0,90.18995834750046,
+Kyoto,First bloom,Trend + temperature,2006,86.0,89.51492029118118,
+Kyoto,First bloom,Trend + temperature,2007,84.0,84.373741032723,
+Kyoto,First bloom,Trend + temperature,2008,83.0,89.30460450661515,
+Kyoto,First bloom,Trend + temperature,2009,78.0,85.0337391096227,
+Kyoto,First bloom,Trend + temperature,2010,78.0,85.41526201977643,
+Kyoto,First bloom,Trend + temperature,2011,87.0,89.3318151873516,
+Kyoto,First bloom,Trend + temperature,2012,93.0,90.58308615668895,
+Kyoto,First bloom,Trend + temperature,2013,81.0,87.39078147795627,
+Kyoto,First bloom,Trend + temperature,2014,86.0,87.59679478529395,
+Kyoto,First bloom,Trend + temperature,2015,86.0,85.85249612028619,
+Kyoto,First bloom,Trend + temperature,2016,82.0,83.54547664847581,
+Kyoto,First bloom,Trend + temperature,2017,90.0,89.04414323991152,
+Kyoto,First bloom,Trend + temperature,2018,81.0,85.20317196301698,
+Kyoto,First bloom,Trend + temperature,2019,86.0,83.18483198834906,
+Kyoto,First bloom,Trend + temperature,2020,81.0,81.46216499691283,
+Kyoto,First bloom,Trend + temperature,2021,75.0,78.23878649459787,
+Kyoto,First bloom,Trend + temperature,2022,83.0,85.92951458308065,
+Kyoto,First bloom,Trend + temperature,2023,76.0,79.96703249319904,
+Kyoto,First bloom,Trend + temperature,2024,88.0,83.53522086534801,
+Kyoto,First bloom,Trend + temperature + selected period,1991,89.0,88.97792751366387,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,1992,86.0,88.24620060851876,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,1993,87.0,90.09708119252522,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,1994,93.0,92.26934290783176,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,1995,90.0,88.05569569392526,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,1996,90.0,90.96726969689922,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,1997,85.0,87.26351523212492,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,1998,83.0,83.98326941849596,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,1999,84.0,88.53278577574085,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2000,93.0,94.38488964572905,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2001,83.0,88.63671081452978,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2002,77.0,83.06963082274382,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2003,87.0,88.5734356959761,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2004,83.0,84.66841391767389,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2005,92.0,90.77481694253436,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2006,86.0,91.13297528030981,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2007,84.0,86.18278375958018,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2008,83.0,89.80187905485806,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2009,78.0,84.46188645556897,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2010,78.0,84.30666273257681,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2011,87.0,88.66490803703321,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2012,93.0,91.1632152022264,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2013,81.0,89.1264155259147,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2014,86.0,89.2636079057597,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2015,86.0,86.53187293238605,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2016,82.0,83.06030717953006,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2017,90.0,87.77359605651503,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2018,81.0,84.75123845926251,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2019,86.0,84.13879809236278,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2020,81.0,83.50022954725347,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2021,75.0,80.37465694032961,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2022,83.0,86.61952092361886,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2023,76.0,79.67010367327147,6.999999999999986
+Kyoto,First bloom,Trend + temperature + selected period,2024,88.0,82.54671214416233,6.999999999999986
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),1991,89.0,87.14218626746931,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),1992,86.0,86.29102104604917,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),1993,87.0,87.96915408929995,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),1994,93.0,91.46899036520226,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),1995,90.0,89.03844830757957,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),1996,90.0,92.30592058487129,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),1997,85.0,87.77371285082461,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),1998,83.0,82.44499952679456,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),1999,84.0,85.94377857905673,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2000,93.0,92.23155092386568,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2001,83.0,88.3024117879651,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2002,77.0,82.75221995896501,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2003,87.0,88.41040688775472,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2004,83.0,84.73311397465393,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2005,92.0,89.32519322999369,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2006,86.0,89.61356295825034,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2007,84.0,83.86119589443862,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2008,83.0,88.55417097426675,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2009,78.0,84.20022727837606,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2010,78.0,84.04812373005178,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2011,87.0,87.94518005017846,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2012,93.0,90.14975281353408,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2013,81.0,87.61445699017476,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2014,86.0,86.5420190097978,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2015,86.0,85.34059744317574,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2016,82.0,83.04673183856904,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2017,90.0,88.0914609989504,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2018,81.0,85.12397184830972,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2019,86.0,82.15845546459778,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2020,81.0,80.97855208534854,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2021,75.0,77.2404595104451,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2022,83.0,84.25267978792738,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2023,76.0,79.17480990153982,
+Kyoto,First bloom,AR(1) + trend + temperature (one-step),2024,88.0,81.97958344679834,
+Kyoto,Full bloom,Temperature only,1991,96.0,96.11415491703326,
+Kyoto,Full bloom,Temperature only,1992,93.0,94.98456641138064,
+Kyoto,Full bloom,Temperature only,1993,96.0,96.24082165920132,
+Kyoto,Full bloom,Temperature only,1994,96.0,98.371509797913,
+Kyoto,Full bloom,Temperature only,1995,96.0,96.45257262716912,
+Kyoto,Full bloom,Temperature only,1996,99.0,98.70467730173817,
+Kyoto,Full bloom,Temperature only,1997,94.0,95.86939382837923,
+Kyoto,Full bloom,Temperature only,1998,91.0,92.8687994472427,
+Kyoto,Full bloom,Temperature only,1999,92.0,95.19908366452223,
+Kyoto,Full bloom,Temperature only,2000,100.0,99.07663897706747,
+Kyoto,Full bloom,Temperature only,2001,93.0,96.01845115628406,
+Kyoto,Full bloom,Temperature only,2002,87.0,93.2128467903638,
+Kyoto,Full bloom,Temperature only,2003,94.0,97.16318584535232,
+Kyoto,Full bloom,Temperature only,2004,93.0,94.19604719064769,
+Kyoto,Full bloom,Temperature only,2005,98.0,97.34487798507767,
+Kyoto,Full bloom,Temperature only,2006,96.0,96.92930018405615,
+Kyoto,Full bloom,Temperature only,2007,93.0,93.73000534778124,
+Kyoto,Full bloom,Temperature only,2008,91.0,96.8085498508483,
+Kyoto,Full bloom,Temperature only,2009,95.0,94.15171603685792,
+Kyoto,Full bloom,Temperature only,2010,91.0,94.394685878653,
+Kyoto,Full bloom,Temperature only,2011,97.0,96.84101730315115,
+Kyoto,Full bloom,Temperature only,2012,99.0,97.62609550631385,
+Kyoto,Full bloom,Temperature only,2013,89.0,95.64152163868094,
+Kyoto,Full bloom,Temperature only,2014,92.0,95.77509747587635,
+Kyoto,Full bloom,Temperature only,2015,91.0,94.69305642687107,
+Kyoto,Full bloom,Temperature only,2016,92.0,93.26027512468308,
+Kyoto,Full bloom,Temperature only,2017,97.0,96.69272765247158,
+Kyoto,Full bloom,Temperature only,2018,87.0,94.30384407366378,
+Kyoto,Full bloom,Temperature only,2019,96.0,93.05099484203795,
+Kyoto,Full bloom,Temperature only,2020,89.0,91.9824366757936,
+Kyoto,Full bloom,Temperature only,2021,85.0,89.97849469413532,
+Kyoto,Full bloom,Temperature only,2022,89.0,94.77724502924136,
+Kyoto,Full bloom,Temperature only,2023,83.0,91.06603742992162,
+Kyoto,Full bloom,Temperature only,2024,95.0,93.29523532199899,
+Kyoto,Full bloom,Trend only,1991,96.0,97.00000000000003,
+Kyoto,Full bloom,Trend only,1992,93.0,96.96159317211952,
+Kyoto,Full bloom,Trend only,1993,96.0,96.923186344239,
+Kyoto,Full bloom,Trend only,1994,96.0,96.88477951635849,
+Kyoto,Full bloom,Trend only,1995,96.0,96.84637268847798,
+Kyoto,Full bloom,Trend only,1996,99.0,96.80796586059746,
+Kyoto,Full bloom,Trend only,1997,94.0,96.76955903271696,
+Kyoto,Full bloom,Trend only,1998,91.0,96.73115220483643,
+Kyoto,Full bloom,Trend only,1999,92.0,96.69274537695593,
+Kyoto,Full bloom,Trend only,2000,100.0,96.65433854907542,
+Kyoto,Full bloom,Trend only,2001,93.0,96.6159317211949,
+Kyoto,Full bloom,Trend only,2002,87.0,96.57752489331439,
+Kyoto,Full bloom,Trend only,2003,94.0,96.53911806543387,
+Kyoto,Full bloom,Trend only,2004,93.0,96.50071123755336,
+Kyoto,Full bloom,Trend only,2005,98.0,96.46230440967284,
+Kyoto,Full bloom,Trend only,2006,96.0,96.42389758179233,
+Kyoto,Full bloom,Trend only,2007,93.0,96.38549075391182,
+Kyoto,Full bloom,Trend only,2008,91.0,96.3470839260313,
+Kyoto,Full bloom,Trend only,2009,95.0,96.3086770981508,
+Kyoto,Full bloom,Trend only,2010,91.0,96.27027027027027,
+Kyoto,Full bloom,Trend only,2011,97.0,96.23186344238977,
+Kyoto,Full bloom,Trend only,2012,99.0,96.19345661450926,
+Kyoto,Full bloom,Trend only,2013,89.0,96.15504978662874,
+Kyoto,Full bloom,Trend only,2014,92.0,96.11664295874823,
+Kyoto,Full bloom,Trend only,2015,91.0,96.07823613086771,
+Kyoto,Full bloom,Trend only,2016,92.0,96.0398293029872,
+Kyoto,Full bloom,Trend only,2017,97.0,96.0014224751067,
+Kyoto,Full bloom,Trend only,2018,87.0,95.96301564722617,
+Kyoto,Full bloom,Trend only,2019,96.0,95.92460881934566,
+Kyoto,Full bloom,Trend only,2020,89.0,95.88620199146514,
+Kyoto,Full bloom,Trend only,2021,85.0,95.84779516358464,
+Kyoto,Full bloom,Trend only,2022,89.0,95.80938833570413,
+Kyoto,Full bloom,Trend only,2023,83.0,95.7709815078236,
+Kyoto,Full bloom,Trend only,2024,95.0,95.7325746799431,
+Kyoto,Full bloom,Trend + temperature,1991,96.0,95.83066966911086,
+Kyoto,Full bloom,Trend + temperature,1992,93.0,94.69343468105295,
+Kyoto,Full bloom,Trend + temperature,1993,96.0,95.92542959514367,
+Kyoto,Full bloom,Trend + temperature,1994,96.0,98.02576827630014,
+Kyoto,Full bloom,Trend + temperature,1995,96.0,96.10468126195894,
+Kyoto,Full bloom,Trend + temperature,1996,99.0,98.32559099348272,
+Kyoto,Full bloom,Trend + temperature,1997,94.0,95.4945386648923,
+Kyoto,Full bloom,Trend + temperature,1998,91.0,92.49932657299475,
+Kyoto,Full bloom,Trend + temperature,1999,92.0,94.79787144305443,
+Kyoto,Full bloom,Trend + temperature,2000,100.0,98.63291296772408,
+Kyoto,Full bloom,Trend + temperature,2001,93.0,95.58050848878092,
+Kyoto,Full bloom,Trend + temperature,2002,87.0,92.7789285968119,
+Kyoto,Full bloom,Trend + temperature,2003,94.0,96.68624703346953,
+Kyoto,Full bloom,Trend + temperature,2004,93.0,93.72425769865535,
+Kyoto,Full bloom,Trend + temperature,2005,98.0,96.83564918704998,
+Kyoto,Full bloom,Trend + temperature,2006,96.0,96.40745288159795,
+Kyoto,Full bloom,Trend + temperature,2007,93.0,93.21492398754224,
+Kyoto,Full bloom,Trend + temperature,2008,91.0,96.25651862399893,
+Kyoto,Full bloom,Trend + temperature,2009,95.0,93.6026733184538,
+Kyoto,Full bloom,Trend + temperature,2010,91.0,93.82843885148313,
+Kyoto,Full bloom,Trend + temperature,2011,97.0,96.24222283265514,
+Kyoto,Full bloom,Trend + temperature,2012,99.0,97.00632174903666,
+Kyoto,Full bloom,Trend + temperature,2013,89.0,95.0200550997251,
+Kyoto,Full bloom,Trend + temperature,2014,92.0,95.13718839460554,
+Kyoto,Full bloom,Trend + temperature,2015,91.0,94.04716976591568,
+Kyoto,Full bloom,Trend + temperature,2016,92.0,92.60885326796345,
+Kyoto,Full bloom,Trend + temperature,2017,97.0,96.00189148640649,
+Kyoto,Full bloom,Trend + temperature,2018,87.0,93.61413054139761,
+Kyoto,Full bloom,Trend + temperature,2019,96.0,92.35449315489635,
+Kyoto,Full bloom,Trend + temperature,2020,89.0,91.27786352075309,
+Kyoto,Full bloom,Trend + temperature,2021,85.0,89.27236362750831,
+Kyoto,Full bloom,Trend + temperature,2022,89.0,94.022185422254,
+Kyoto,Full bloom,Trend + temperature,2023,83.0,90.32130847576119,
+Kyoto,Full bloom,Trend + temperature,2024,95.0,92.51947093644532,
+Kyoto,Full bloom,Trend + temperature + selected period,1991,96.0,94.61243083346045,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,1992,93.0,96.5316926923184,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,1993,96.0,98.03969434841605,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,1994,96.0,97.08154950061093,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,1995,96.0,93.98198591257011,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,1996,99.0,97.88750192122893,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,1997,94.0,97.86614935834163,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,1998,91.0,94.17760384222166,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,1999,92.0,93.28045916007252,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2000,100.0,96.59150530723522,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2001,93.0,96.91920780479319,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2002,87.0,95.5060454213528,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2003,94.0,96.19529625969203,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2004,93.0,91.9236217685317,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2005,98.0,96.27058455538712,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2006,96.0,98.42821245180585,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2007,93.0,94.9455666594299,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2008,91.0,94.58493960135445,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2009,95.0,92.18628987178747,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2010,91.0,95.12219786798178,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2011,97.0,98.34657853830763,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2012,99.0,96.67620620450712,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2013,89.0,92.91916003556064,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2014,92.0,94.49120218770528,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2015,91.0,96.26962870885932,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2016,92.0,94.60768517792286,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2017,97.0,94.5169266096277,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2018,87.0,91.945579888868,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2019,96.0,93.53535063906432,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2020,89.0,94.24255460694991,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2021,85.0,90.56211649423776,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2022,89.0,92.07830307307032,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2023,83.0,90.1724083123968,4.5499999999999945
+Kyoto,Full bloom,Trend + temperature + selected period,2024,95.0,94.75598089771883,4.5499999999999945
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),1991,96.0,95.20493608298314,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),1992,93.0,94.56904039207545,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),1993,96.0,95.6154001006867,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),1994,96.0,97.90891835610057,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),1995,96.0,95.98479408978496,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),1996,99.0,98.21052903592764,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),1997,94.0,95.56329536234438,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),1998,91.0,92.24870169538863,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),1999,92.0,94.36363591815022,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2000,100.0,98.26942772954868,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2001,93.0,95.71472711367245,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2002,87.0,92.46841105105956,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2003,94.0,96.00658943291984,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2004,93.0,93.47961451288701,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2005,98.0,96.53466047885523,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2006,96.0,96.42056615841246,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2007,93.0,93.09686436777245,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2008,91.0,95.95625883702652,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2009,95.0,93.17226318077994,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2010,91.0,93.65051099233375,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2011,97.0,95.81804199954557,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2012,99.0,96.96136722979283,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2013,89.0,95.0976617567324,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2014,92.0,94.58701604145503,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2015,91.0,93.68412095190024,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2016,92.0,92.18082253481563,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2017,97.0,95.64377201561288,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2018,87.0,93.56639334928285,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2019,96.0,91.67636352384696,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2020,89.0,91.16404930692939,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2021,85.0,88.71532438676672,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2022,89.0,93.2233275469293,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2023,83.0,89.76747920451037,
+Kyoto,Full bloom,AR(1) + trend + temperature (one-step),2024,95.0,91.59325723755272,
+Wakkanai,First bloom,Temperature only,1991,134.0,133.9805964485725,
+Wakkanai,First bloom,Temperature only,1992,137.0,132.8066297554097,
+Wakkanai,First bloom,Temperature only,1993,135.0,132.50813452164786,
+Wakkanai,First bloom,Temperature only,1994,136.0,132.95805063592957,
+Wakkanai,First bloom,Temperature only,1995,128.0,133.66784864862024,
+Wakkanai,First bloom,Temperature only,1996,140.0,134.19073553159774,
+Wakkanai,First bloom,Temperature only,1997,135.0,133.59618148954905,
+Wakkanai,First bloom,Temperature only,1998,131.0,133.6554155589647,
+Wakkanai,First bloom,Temperature only,1999,134.0,136.63844733801827,
+Wakkanai,First bloom,Temperature only,2000,138.0,136.13349031576067,
+Wakkanai,First bloom,Temperature only,2001,137.0,138.28840930913046,
+Wakkanai,First bloom,Temperature only,2002,119.0,129.84654359710245,
+Wakkanai,First bloom,Temperature only,2003,130.0,134.96483217195174,
+Wakkanai,First bloom,Temperature only,2004,130.0,132.52154357572823,
+Wakkanai,First bloom,Temperature only,2005,143.0,135.2988071981451,
+Wakkanai,First bloom,Temperature only,2006,138.0,134.33034027140215,
+Wakkanai,First bloom,Temperature only,2007,135.0,132.8118860209551,
+Wakkanai,First bloom,Temperature only,2008,122.0,133.0755985797317,
+Wakkanai,First bloom,Temperature only,2009,130.0,133.31628534925565,
+Wakkanai,First bloom,Temperature only,2010,142.0,135.02083161641636,
+Wakkanai,First bloom,Temperature only,2011,139.0,131.94399571378307,
+Wakkanai,First bloom,Temperature only,2012,134.0,137.09725518532807,
+Wakkanai,First bloom,Temperature only,2013,146.0,135.03963287394419,
+Wakkanai,First bloom,Temperature only,2014,131.0,134.14987515434285,
+Wakkanai,First bloom,Temperature only,2015,123.0,128.93731073977514,
+Wakkanai,First bloom,Temperature only,2016,133.0,133.11288042076205,
+Wakkanai,First bloom,Temperature only,2017,129.0,132.41705961287056,
+Wakkanai,First bloom,Temperature only,2018,132.0,133.94622855846785,
+Wakkanai,First bloom,Temperature only,2019,127.0,133.30900744311583,
+Wakkanai,First bloom,Temperature only,2020,130.0,132.11163851727932,
+Wakkanai,First bloom,Temperature only,2021,128.0,131.33548189487138,
+Wakkanai,First bloom,Temperature only,2022,126.0,131.41634751864703,
+Wakkanai,First bloom,Temperature only,2023,123.0,130.79607823405686,
+Wakkanai,First bloom,Temperature only,2024,121.0,132.98544386598357,
+Wakkanai,First bloom,Trend only,1991,134.0,135.50219593775753,
+Wakkanai,First bloom,Trend only,1992,137.0,135.50882737893258,
+Wakkanai,First bloom,Trend only,1993,135.0,135.51545882010763,
+Wakkanai,First bloom,Trend only,1994,136.0,135.52209026128267,
+Wakkanai,First bloom,Trend only,1995,128.0,135.52872170245772,
+Wakkanai,First bloom,Trend only,1996,140.0,135.53535314363276,
+Wakkanai,First bloom,Trend only,1997,135.0,135.5419845848078,
+Wakkanai,First bloom,Trend only,1998,131.0,135.54861602598285,
+Wakkanai,First bloom,Trend only,1999,134.0,135.5552474671579,
+Wakkanai,First bloom,Trend only,2000,138.0,135.56187890833297,
+Wakkanai,First bloom,Trend only,2001,137.0,135.56851034950802,
+Wakkanai,First bloom,Trend only,2002,119.0,135.57514179068306,
+Wakkanai,First bloom,Trend only,2003,130.0,135.5817732318581,
+Wakkanai,First bloom,Trend only,2004,130.0,135.58840467303315,
+Wakkanai,First bloom,Trend only,2005,143.0,135.5950361142082,
+Wakkanai,First bloom,Trend only,2006,138.0,135.60166755538324,
+Wakkanai,First bloom,Trend only,2007,135.0,135.6082989965583,
+Wakkanai,First bloom,Trend only,2008,122.0,135.61493043773334,
+Wakkanai,First bloom,Trend only,2009,130.0,135.62156187890838,
+Wakkanai,First bloom,Trend only,2010,142.0,135.62819332008343,
+Wakkanai,First bloom,Trend only,2011,139.0,135.63482476125847,
+Wakkanai,First bloom,Trend only,2012,134.0,135.64145620243352,
+Wakkanai,First bloom,Trend only,2013,146.0,135.64808764360856,
+Wakkanai,First bloom,Trend only,2014,131.0,135.6547190847836,
+Wakkanai,First bloom,Trend only,2015,123.0,135.66135052595865,
+Wakkanai,First bloom,Trend only,2016,133.0,135.6679819671337,
+Wakkanai,First bloom,Trend only,2017,129.0,135.67461340830874,
+Wakkanai,First bloom,Trend only,2018,132.0,135.6812448494838,
+Wakkanai,First bloom,Trend only,2019,127.0,135.68787629065883,
+Wakkanai,First bloom,Trend only,2020,130.0,135.69450773183388,
+Wakkanai,First bloom,Trend only,2021,128.0,135.70113917300893,
+Wakkanai,First bloom,Trend only,2022,126.0,135.70777061418397,
+Wakkanai,First bloom,Trend only,2023,123.0,135.71440205535902,
+Wakkanai,First bloom,Trend only,2024,121.0,135.72103349653406,
+Wakkanai,First bloom,Trend + temperature,1991,134.0,133.9132192457734,
+Wakkanai,First bloom,Trend + temperature,1992,137.0,132.73405260596098,
+Wakkanai,First bloom,Trend + temperature,1993,135.0,132.43147691817177,
+Wakkanai,First bloom,Trend + temperature,1994,136.0,132.8782695953265,
+Wakkanai,First bloom,Trend + temperature,1995,128.0,133.58527648996778,
+Wakkanai,First bloom,Trend + temperature,1996,140.0,134.10513324581294,
+Wakkanai,First bloom,Trend + temperature,1997,135.0,133.50612017011778,
+Wakkanai,First bloom,Trend + temperature,1998,131.0,133.56173122510765,
+Wakkanai,First bloom,Trend + temperature,1999,134.0,136.54487874093002,
+Wakkanai,First bloom,Trend + temperature,2000,138.0,136.03557725552565,
+Wakkanai,First bloom,Trend + temperature,2001,137.0,138.18955305205316,
+Wakkanai,First bloom,Trend + temperature,2002,119.0,129.73319370453757,
+Wakkanai,First bloom,Trend + temperature,2003,130.0,134.8543284355241,
+Wakkanai,First bloom,Trend + temperature,2004,130.0,132.40421677119988,
+Wakkanai,First bloom,Trend + temperature,2005,143.0,135.1813330082349,
+Wakkanai,First bloom,Trend + temperature,2006,138.0,134.20792891379403,
+Wakkanai,First bloom,Trend + temperature,2007,135.0,132.6838342097287,
+Wakkanai,First bloom,Trend + temperature,2008,122.0,132.94418522709245,
+Wakkanai,First bloom,Trend + temperature,2009,130.0,133.1814810114097,
+Wakkanai,First bloom,Trend + temperature,2010,142.0,134.88450817609603,
+Wakkanai,First bloom,Trend + temperature,2011,139.0,131.8000390686891,
+Wakkanai,First bloom,Trend + temperature,2012,134.0,136.9561894147462,
+Wakkanai,First bloom,Trend + temperature,2013,146.0,134.8922371987518,
+Wakkanai,First bloom,Trend + temperature,2014,131.0,133.99764295936717,
+Wakkanai,First bloom,Trend + temperature,2015,123.0,128.77471431745926,
+Wakkanai,First bloom,Trend + temperature,2016,133.0,132.95192467057237,
+Wakkanai,First bloom,Trend + temperature,2017,129.0,132.2515153360669,
+Wakkanai,First bloom,Trend + temperature,2018,132.0,133.77894091874654,
+Wakkanai,First bloom,Trend + temperature,2019,127.0,133.13720621003247,
+Wakkanai,First bloom,Trend + temperature,2020,130.0,131.9346074123826,
+Wakkanai,First bloom,Trend + temperature,2021,128.0,131.15375953545256,
+Wakkanai,First bloom,Trend + temperature,2022,126.0,131.23102980574473,
+Wakkanai,First bloom,Trend + temperature,2023,123.0,130.6062686046265,
+Wakkanai,First bloom,Trend + temperature,2024,121.0,132.7947350877005,
+Wakkanai,First bloom,Trend + temperature + selected period,1991,134.0,130.72447800646043,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,1992,137.0,132.4186436740061,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,1993,135.0,134.39572066431947,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,1994,136.0,132.31556665415718,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,1995,128.0,130.2794952229457,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,1996,140.0,132.94107607016338,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,1997,135.0,135.5653691685722,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,1998,131.0,134.3729362813158,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,1999,134.0,134.46196890377522,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2000,138.0,134.30609901515018,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2001,137.0,140.74802455837647,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2002,119.0,130.54591539780364,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2003,130.0,133.27636413818848,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2004,130.0,129.0756474861711,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2005,143.0,135.9681354222012,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2006,138.0,136.65769402069913,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2007,135.0,131.7591876192822,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2008,122.0,129.5373287987145,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2009,130.0,132.2855425936654,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2010,142.0,137.507860208781,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2011,139.0,131.89590965795261,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2012,134.0,134.86394574675563,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2013,146.0,133.30341961715737,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2014,131.0,135.89060470158475,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2015,123.0,129.17807632344403,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2016,133.0,130.65970982744614,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2017,129.0,129.17458313012077,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2018,132.0,134.69376977099103,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2019,127.0,135.30681939501494,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2020,130.0,130.5156196815197,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2021,128.0,127.42022765587824,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2022,126.0,130.35593653013953,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2023,123.0,132.33089309580856,4.299999999999995
+Wakkanai,First bloom,Trend + temperature + selected period,2024,121.0,132.83933724967366,4.299999999999995
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),1991,134.0,135.82992005178895,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),1992,137.0,133.21403544699325,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),1993,135.0,132.37317438317066,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),1994,136.0,133.18125243287915,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),1995,128.0,133.7034519177483,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),1996,140.0,135.67147010374126,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),1997,135.0,132.90552908635408,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),1998,131.0,133.8696899577753,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),1999,134.0,137.5539419913096,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2000,138.0,136.5082045417115,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2001,137.0,137.92066319272098,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2002,119.0,129.72398371072393,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2003,130.0,138.06466539189796,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2004,130.0,133.64544104825163,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2005,143.0,136.40048519887003,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2006,138.0,133.08224759173717,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2007,135.0,132.48083507929547,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2008,122.0,133.28539436561542,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2009,130.0,135.87965418242976,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2010,142.0,136.12017867888116,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2011,139.0,130.8910170346751,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2012,134.0,136.54757681399832,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2013,146.0,135.41113646684136,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2014,131.0,132.35225861612886,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2015,123.0,129.89765220766486,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2016,133.0,135.49030454747796,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2017,129.0,132.9863842845605,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2018,132.0,135.22793757513602,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2019,127.0,134.05095167729726,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2020,130.0,133.7681589022464,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2021,128.0,132.45330437143255,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2022,126.0,132.895165838332,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2023,123.0,132.64127635289492,
+Wakkanai,First bloom,AR(1) + trend + temperature (one-step),2024,121.0,135.3567017842719,
+Wakkanai,Full bloom,Temperature only,1991,138.0,138.44337718328975,
+Wakkanai,Full bloom,Temperature only,1992,139.0,137.36692775231325,
+Wakkanai,Full bloom,Temperature only,1993,138.0,137.09322746217433,
+Wakkanai,Full bloom,Temperature only,1994,139.0,137.50577063569563,
+Wakkanai,Full bloom,Temperature only,1995,131.0,138.15660823723832,
+Wakkanai,Full bloom,Temperature only,1996,145.0,138.63606075571636,
+Wakkanai,Full bloom,Temperature only,1997,142.0,138.09089421566418,
+Wakkanai,Full bloom,Temperature only,1998,134.0,138.14520792037848,
+Wakkanai,Full bloom,Temperature only,1999,138.0,140.8804497972123,
+Wakkanai,Full bloom,Temperature only,2000,141.0,140.41743776932213,
+Wakkanai,Full bloom,Temperature only,2001,139.0,142.39335526146488,
+Wakkanai,Full bloom,Temperature only,2002,122.0,134.65272548464355,
+Wakkanai,Full bloom,Temperature only,2003,134.0,139.34585592527515,
+Wakkanai,Full bloom,Temperature only,2004,132.0,137.10552267354515,
+Wakkanai,Full bloom,Temperature only,2005,148.0,139.6520888269409,
+Wakkanai,Full bloom,Temperature only,2006,140.0,138.7640690234119,
+Wakkanai,Full bloom,Temperature only,2007,137.0,137.37174739846537,
+Wakkanai,Full bloom,Temperature only,2008,125.0,137.61355428744247,
+Wakkanai,Full bloom,Temperature only,2009,132.0,137.8342480580635,
+Wakkanai,Full bloom,Temperature only,2010,145.0,139.39720369389585,
+Wakkanai,Full bloom,Temperature only,2011,145.0,136.57594967034723,
+Wakkanai,Full bloom,Temperature only,2012,138.0,141.3011460989392,
+Wakkanai,Full bloom,Temperature only,2013,148.0,139.41444319744,
+Wakkanai,Full bloom,Temperature only,2014,133.0,138.5985945055223,
+Wakkanai,Full bloom,Temperature only,2015,126.0,133.81901938582888,
+Wakkanai,Full bloom,Temperature only,2016,135.0,137.64773925776285,
+Wakkanai,Full bloom,Temperature only,2017,131.0,137.00971782403846,
+Wakkanai,Full bloom,Temperature only,2018,135.0,138.4118641122951,
+Wakkanai,Full bloom,Temperature only,2019,129.0,137.82757470185288,
+Wakkanai,Full bloom,Temperature only,2020,132.0,136.7296669789232,
+Wakkanai,Full bloom,Temperature only,2021,131.0,136.01798294273584,
+Wakkanai,Full bloom,Temperature only,2022,129.0,136.09213134507624,
+Wakkanai,Full bloom,Temperature only,2023,125.0,135.52338563675426,
+Wakkanai,Full bloom,Temperature only,2024,124.0,137.53088840698842,
+Wakkanai,Full bloom,Trend only,1991,138.0,138.58160841533763,
+Wakkanai,Full bloom,Trend only,1992,139.0,138.51679674244994,
+Wakkanai,Full bloom,Trend only,1993,138.0,138.45198506956226,
+Wakkanai,Full bloom,Trend only,1994,139.0,138.38717339667457,
+Wakkanai,Full bloom,Trend only,1995,131.0,138.3223617237869,
+Wakkanai,Full bloom,Trend only,1996,145.0,138.25755005089923,
+Wakkanai,Full bloom,Trend only,1997,142.0,138.19273837801154,
+Wakkanai,Full bloom,Trend only,1998,134.0,138.12792670512385,
+Wakkanai,Full bloom,Trend only,1999,138.0,138.06311503223617,
+Wakkanai,Full bloom,Trend only,2000,141.0,137.99830335934848,
+Wakkanai,Full bloom,Trend only,2001,139.0,137.9334916864608,
+Wakkanai,Full bloom,Trend only,2002,122.0,137.8686800135731,
+Wakkanai,Full bloom,Trend only,2003,134.0,137.80386834068545,
+Wakkanai,Full bloom,Trend only,2004,132.0,137.73905666779777,
+Wakkanai,Full bloom,Trend only,2005,148.0,137.67424499491008,
+Wakkanai,Full bloom,Trend only,2006,140.0,137.6094333220224,
+Wakkanai,Full bloom,Trend only,2007,137.0,137.5446216491347,
+Wakkanai,Full bloom,Trend only,2008,125.0,137.47980997624703,
+Wakkanai,Full bloom,Trend only,2009,132.0,137.41499830335934,
+Wakkanai,Full bloom,Trend only,2010,145.0,137.35018663047165,
+Wakkanai,Full bloom,Trend only,2011,145.0,137.285374957584,
+Wakkanai,Full bloom,Trend only,2012,138.0,137.2205632846963,
+Wakkanai,Full bloom,Trend only,2013,148.0,137.15575161180863,
+Wakkanai,Full bloom,Trend only,2014,133.0,137.09093993892094,
+Wakkanai,Full bloom,Trend only,2015,126.0,137.02612826603325,
+Wakkanai,Full bloom,Trend only,2016,135.0,136.96131659314557,
+Wakkanai,Full bloom,Trend only,2017,131.0,136.89650492025788,
+Wakkanai,Full bloom,Trend only,2018,135.0,136.8316932473702,
+Wakkanai,Full bloom,Trend only,2019,129.0,136.76688157448254,
+Wakkanai,Full bloom,Trend only,2020,132.0,136.70206990159485,
+Wakkanai,Full bloom,Trend only,2021,131.0,136.63725822870717,
+Wakkanai,Full bloom,Trend only,2022,129.0,136.57244655581948,
+Wakkanai,Full bloom,Trend only,2023,125.0,136.5076348829318,
+Wakkanai,Full bloom,Trend only,2024,124.0,136.4428232100441,
+Wakkanai,Full bloom,Trend + temperature,1991,138.0,137.08558899646223,
+Wakkanai,Full bloom,Trend + temperature,1992,139.0,135.90435002481584,
+Wakkanai,Full bloom,Trend + temperature,1993,138.0,135.5484202557856,
+Wakkanai,Full bloom,Trend + temperature,1994,139.0,135.89801979470712,
+Wakkanai,Full bloom,Trend + temperature,1995,131.0,136.49261066949364,
+Wakkanai,Full bloom,Trend + temperature,1996,145.0,136.91099994025618,
+Wakkanai,Full bloom,Trend + temperature,1997,142.0,136.27597476911896,
+Wakkanai,Full bloom,Trend + temperature,1998,134.0,136.25727733677718,
+Wakkanai,Full bloom,Trend + temperature,1999,138.0,138.99485154577866,
+Wakkanai,Full bloom,Trend + temperature,2000,141.0,138.44428971626894,
+Wakkanai,Full bloom,Trend + temperature,2001,139.0,140.40119986650535,
+Wakkanai,Full bloom,Trend + temperature,2002,122.0,132.3684937458799,
+Wakkanai,Full bloom,Trend + temperature,2003,134.0,137.11898004310032,
+Wakkanai,Full bloom,Trend + temperature,2004,132.0,134.74114803986035,
+Wakkanai,Full bloom,Trend + temperature,2005,148.0,137.28474407692477,
+Wakkanai,Full bloom,Trend + temperature,2006,140.0,136.29723026506576,
+Wakkanai,Full bloom,Trend + temperature,2007,137.0,134.79124198473488,
+Wakkanai,Full bloom,Trend + temperature,2008,125.0,134.96530695166328,
+Wakkanai,Full bloom,Trend + temperature,2009,132.0,135.11766544767966,
+Wakkanai,Full bloom,Trend + temperature,2010,145.0,136.65000806740852,
+Wakkanai,Full bloom,Trend + temperature,2011,145.0,133.674929384499,
+Wakkanai,Full bloom,Trend + temperature,2012,138.0,138.45838283622433,
+Wakkanai,Full bloom,Trend + temperature,2013,148.0,136.44411943433514,
+Wakkanai,Full bloom,Trend + temperature,2014,133.0,135.53080499503938,
+Wakkanai,Full bloom,Trend + temperature,2015,126.0,130.54236953589037,
+Wakkanai,Full bloom,Trend + temperature,2016,135.0,134.4041523005969,
+Wakkanai,Full bloom,Trend + temperature,2017,131.0,133.67366268813288,
+Wakkanai,Full bloom,Trend + temperature,2018,135.0,135.0406766545262,
+Wakkanai,Full bloom,Trend + temperature,2019,129.0,134.36542912334764,
+Wakkanai,Full bloom,Trend + temperature,2020,132.0,133.16212880660544,
+Wakkanai,Full bloom,Trend + temperature,2021,131.0,132.3559064146109,
+Wakkanai,Full bloom,Trend + temperature,2022,129.0,132.35760110435203,
+Wakkanai,Full bloom,Trend + temperature,2023,125.0,131.69833410775138,
+Wakkanai,Full bloom,Trend + temperature,2024,124.0,133.68771719299318,
+Wakkanai,Full bloom,Trend + temperature + selected period,1991,138.0,138.12146025779472,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,1992,139.0,138.07140024701343,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,1993,138.0,132.89389165226373,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,1994,139.0,136.3327579116126,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,1995,131.0,139.10851540560182,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,1996,145.0,134.64416326274156,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,1997,142.0,136.1954004830086,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,1998,134.0,139.16975282257948,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,1999,138.0,137.26270034290252,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2000,141.0,137.97247158223587,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2001,139.0,143.77601124491702,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2002,122.0,130.70738593961417,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2003,134.0,136.06961241397286,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2004,132.0,137.84139145157093,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2005,148.0,136.49298919561667,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2006,140.0,134.75882066989237,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2007,137.0,137.85911389747002,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2008,125.0,134.63345762910134,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2009,132.0,133.14413738734422,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2010,145.0,139.68453663902935,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2011,145.0,133.8930293076163,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2012,138.0,136.42869550197278,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2013,148.0,139.20766329359873,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2014,133.0,136.4988199756885,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2015,126.0,127.85122981486873,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2016,135.0,136.68616717529434,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2017,131.0,135.13409349940682,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2018,135.0,132.5874378825103,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2019,129.0,136.21417341015825,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2020,132.0,135.1541953079,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2021,131.0,129.80516539351058,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2022,129.0,133.5899947940348,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2023,125.0,134.09489707639233,3.0999999999999996
+Wakkanai,Full bloom,Trend + temperature + selected period,2024,124.0,131.41093269849569,3.0999999999999996
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),1991,138.0,136.99899074778642,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),1992,139.0,135.89210806489987,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),1993,138.0,135.54494081346337,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),1994,139.0,135.88708843747585,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),1995,131.0,136.49079220019829,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),1996,145.0,136.84409417352947,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),1997,142.0,136.32481287256758,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),1998,134.0,136.2820532709206,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),1999,138.0,138.95539505463444,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2000,141.0,138.43823574491182,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2001,139.0,140.42123544292042,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2002,122.0,132.3697503667207,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2003,134.0,136.98261098001467,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2004,132.0,134.70340593602472,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2005,148.0,137.23212153632159,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2006,140.0,136.3766961610628,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2007,137.0,134.80491124066245,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2008,125.0,134.95498509221613,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2009,132.0,135.00920923576732,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2010,145.0,136.60043389764007,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2011,145.0,133.7319992719883,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2012,138.0,138.51787241512588,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2013,148.0,136.44586226688057,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2014,133.0,135.61524012413685,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2015,126.0,130.50206362496476,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2016,135.0,134.30826560606363,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2017,131.0,133.65229843257228,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2018,135.0,134.9875237667433,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2019,129.0,134.34563279509595,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2020,132.0,133.09312190861812,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2021,131.0,132.31197054922663,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2022,129.0,132.3060850832447,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2023,125.0,131.63075704614698,
+Wakkanai,Full bloom,AR(1) + trend + temperature (one-step),2024,124.0,133.5885809099452,
+Kagoshima,First bloom,Temperature only,1991,83.0,84.47995560469069,
+Kagoshima,First bloom,Temperature only,1992,85.0,84.16814963863186,
+Kagoshima,First bloom,Temperature only,1993,90.0,85.21336496480149,
+Kagoshima,First bloom,Temperature only,1994,88.0,85.48683835569922,
+Kagoshima,First bloom,Temperature only,1995,90.0,85.15449801574832,
+Kagoshima,First bloom,Temperature only,1996,84.0,85.74962602464166,
+Kagoshima,First bloom,Temperature only,1997,80.0,83.57942783122408,
+Kagoshima,First bloom,Temperature only,1998,87.0,82.53992550793093,
+Kagoshima,First bloom,Temperature only,1999,85.0,83.37893125087935,
+Kagoshima,First bloom,Temperature only,2000,89.0,85.48162759483387,
+Kagoshima,First bloom,Temperature only,2001,89.0,83.68631382505902,
+Kagoshima,First bloom,Temperature only,2002,86.0,82.99902702296926,
+Kagoshima,First bloom,Temperature only,2003,83.0,84.0209299491228,
+Kagoshima,First bloom,Temperature only,2004,88.0,83.49076328218628,
+Kagoshima,First bloom,Temperature only,2005,93.0,85.65259129858731,
+Kagoshima,First bloom,Temperature only,2006,79.0,83.81808172519476,
+Kagoshima,First bloom,Temperature only,2007,89.0,82.51155406599037,
+Kagoshima,First bloom,Temperature only,2008,87.0,85.11262620391514,
+Kagoshima,First bloom,Temperature only,2009,78.0,82.01808821084755,
+Kagoshima,First bloom,Temperature only,2010,82.0,82.23534973415715,
+Kagoshima,First bloom,Temperature only,2011,82.0,84.82026118903667,
+Kagoshima,First bloom,Temperature only,2012,85.0,84.4110255045085,
+Kagoshima,First bloom,Temperature only,2013,74.0,82.79086863611117,
+Kagoshima,First bloom,Temperature only,2014,79.0,83.37392452583101,
+Kagoshima,First bloom,Temperature only,2015,80.0,84.39590331145499,
+Kagoshima,First bloom,Temperature only,2016,86.0,83.79013928163869,
+Kagoshima,First bloom,Temperature only,2017,95.0,85.17884890575613,
+Kagoshima,First bloom,Temperature only,2018,76.0,83.9386982831774,
+Kagoshima,First bloom,Temperature only,2019,84.0,82.43994272590507,
+Kagoshima,First bloom,Temperature only,2020,91.0,82.10612181835889,
+Kagoshima,First bloom,Temperature only,2021,76.0,80.624777317472,
+Kagoshima,First bloom,Temperature only,2022,79.0,83.94142922411285,
+Kagoshima,First bloom,Temperature only,2023,83.0,81.31191240062088,
+Kagoshima,First bloom,Temperature only,2024,88.0,81.01449880719318,
+Kagoshima,First bloom,Trend only,1991,83.0,83.48198198198199,
+Kagoshima,First bloom,Trend only,1992,85.0,83.36083451872926,
+Kagoshima,First bloom,Trend only,1993,90.0,83.23968705547654,
+Kagoshima,First bloom,Trend only,1994,88.0,83.11853959222381,
+Kagoshima,First bloom,Trend only,1995,90.0,82.99739212897109,
+Kagoshima,First bloom,Trend only,1996,84.0,82.87624466571836,
+Kagoshima,First bloom,Trend only,1997,80.0,82.75509720246563,
+Kagoshima,First bloom,Trend only,1998,87.0,82.63394973921291,
+Kagoshima,First bloom,Trend only,1999,85.0,82.51280227596017,
+Kagoshima,First bloom,Trend only,2000,89.0,82.39165481270744,
+Kagoshima,First bloom,Trend only,2001,89.0,82.27050734945472,
+Kagoshima,First bloom,Trend only,2002,86.0,82.14935988620199,
+Kagoshima,First bloom,Trend only,2003,83.0,82.02821242294927,
+Kagoshima,First bloom,Trend only,2004,88.0,81.90706495969654,
+Kagoshima,First bloom,Trend only,2005,93.0,81.78591749644382,
+Kagoshima,First bloom,Trend only,2006,79.0,81.66477003319109,
+Kagoshima,First bloom,Trend only,2007,89.0,81.54362256993836,
+Kagoshima,First bloom,Trend only,2008,87.0,81.42247510668564,
+Kagoshima,First bloom,Trend only,2009,78.0,81.3013276434329,
+Kagoshima,First bloom,Trend only,2010,82.0,81.18018018018017,
+Kagoshima,First bloom,Trend only,2011,82.0,81.05903271692745,
+Kagoshima,First bloom,Trend only,2012,85.0,80.93788525367472,
+Kagoshima,First bloom,Trend only,2013,74.0,80.816737790422,
+Kagoshima,First bloom,Trend only,2014,79.0,80.69559032716927,
+Kagoshima,First bloom,Trend only,2015,80.0,80.57444286391654,
+Kagoshima,First bloom,Trend only,2016,86.0,80.45329540066382,
+Kagoshima,First bloom,Trend only,2017,95.0,80.3321479374111,
+Kagoshima,First bloom,Trend only,2018,76.0,80.21100047415837,
+Kagoshima,First bloom,Trend only,2019,84.0,80.08985301090564,
+Kagoshima,First bloom,Trend only,2020,91.0,79.9687055476529,
+Kagoshima,First bloom,Trend only,2021,76.0,79.84755808440018,
+Kagoshima,First bloom,Trend only,2022,79.0,79.72641062114745,
+Kagoshima,First bloom,Trend only,2023,83.0,79.60526315789473,
+Kagoshima,First bloom,Trend only,2024,88.0,79.484115694642,
+Kagoshima,First bloom,Trend + temperature,1991,83.0,82.98781807584798,
+Kagoshima,First bloom,Trend + temperature,1992,85.0,82.63522553169761,
+Kagoshima,First bloom,Trend + temperature,1993,90.0,83.42901718924172,
+Kagoshima,First bloom,Trend + temperature,1994,88.0,83.57085683435427,
+Kagoshima,First bloom,Trend + temperature,1995,90.0,83.20091726554308,
+Kagoshima,First bloom,Trend + temperature,1996,84.0,83.61448424064226,
+Kagoshima,First bloom,Trend + temperature,1997,80.0,81.69195944694161,
+Kagoshima,First bloom,Trend + temperature,1998,87.0,80.7246237058042,
+Kagoshima,First bloom,Trend + temperature,1999,85.0,81.34421366894851,
+Kagoshima,First bloom,Trend + temperature,2000,89.0,83.03134394934474,
+Kagoshima,First bloom,Trend + temperature,2001,89.0,81.4255139512133,
+Kagoshima,First bloom,Trend + temperature,2002,86.0,80.75572277434435,
+Kagoshima,First bloom,Trend + temperature,2003,83.0,81.52982058682127,
+Kagoshima,First bloom,Trend + temperature,2004,88.0,80.99276132929603,
+Kagoshima,First bloom,Trend + temperature,2005,93.0,82.72984485324172,
+Kagoshima,First bloom,Trend + temperature,2006,79.0,81.09090303122264,
+Kagoshima,First bloom,Trend + temperature,2007,89.0,79.89798967513259,
+Kagoshima,First bloom,Trend + temperature,2008,87.0,82.00613776857745,
+Kagoshima,First bloom,Trend + temperature,2009,78.0,79.30274936618864,
+Kagoshima,First bloom,Trend + temperature,2010,82.0,79.39710235997168,
+Kagoshima,First bloom,Trend + temperature,2011,82.0,81.49159823451785,
+Kagoshima,First bloom,Trend + temperature,2012,85.0,81.05669903042897,
+Kagoshima,First bloom,Trend + temperature,2013,74.0,79.59883804774843,
+Kagoshima,First bloom,Trend + temperature,2014,79.0,80.00220674019668,
+Kagoshima,First bloom,Trend + temperature,2015,80.0,80.7763686372233,
+Kagoshima,First bloom,Trend + temperature,2016,86.0,80.1754462531639,
+Kagoshima,First bloom,Trend + temperature,2017,95.0,81.25941496157274,
+Kagoshima,First bloom,Trend + temperature,2018,76.0,80.12257558647235,
+Kagoshima,First bloom,Trend + temperature,2019,84.0,78.7672719814363,
+Kagoshima,First bloom,Trend + temperature,2020,91.0,78.39608165899989,
+Kagoshima,First bloom,Trend + temperature,2021,76.0,77.05548656302659,
+Kagoshima,First bloom,Trend + temperature,2022,79.0,79.76814200400257,
+Kagoshima,First bloom,Trend + temperature,2023,83.0,77.45759410110183,
+Kagoshima,First bloom,Trend + temperature,2024,88.0,77.11715994289847,
+Kagoshima,First bloom,Trend + temperature + selected period,1991,83.0,80.78664887011091,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,1992,85.0,80.31410274355851,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,1993,90.0,81.97621800717262,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,1994,88.0,83.71755413346219,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,1995,90.0,84.78630968923251,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,1996,84.0,85.53253356177828,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,1997,80.0,83.09988956574973,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,1998,87.0,80.67953470218518,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,1999,85.0,79.63729066488602,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2000,89.0,80.34701271496009,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2001,89.0,79.4917956628812,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2002,86.0,80.36250349561335,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2003,83.0,82.61564366260183,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2004,88.0,83.06764690642787,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2005,93.0,84.25221446988883,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2006,79.0,81.53568861180975,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2007,89.0,78.83333061897108,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2008,87.0,79.43555938449079,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2009,78.0,77.10340619549885,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2010,82.0,78.27104146272522,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2011,82.0,81.6769826530038,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2012,85.0,82.61984293816752,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2013,74.0,81.66537735342733,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2014,79.0,81.08788762764823,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2015,80.0,80.10010540348158,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2016,86.0,78.08096856387765,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2017,95.0,78.39690094710791,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2018,76.0,78.0539805525981,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2019,84.0,78.40250607789183,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2020,91.0,79.65553101218217,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2021,76.0,79.32363451440072,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2022,79.0,81.2093422473794,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2023,83.0,77.85205710860446,8.449999999999982
+Kagoshima,First bloom,Trend + temperature + selected period,2024,88.0,75.88230517484133,8.449999999999982
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),1991,83.0,82.62167184769554,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),1992,85.0,82.54933588101302,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),1993,90.0,83.59610727959102,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),1994,88.0,84.39725311988714,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),1995,90.0,83.78689749571627,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),1996,84.0,84.4624912019037,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),1997,80.0,81.81540687072543,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),1998,87.0,80.36132670705001,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),1999,85.0,81.88939806208573,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2000,89.0,83.28716677851611,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2001,89.0,82.25195533143372,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2002,86.0,81.60942540063257,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2003,83.0,81.98561481497549,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2004,88.0,81.08184456842639,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2005,93.0,83.44027737372964,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2006,79.0,82.5030133049911,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2007,89.0,79.52600941386297,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2008,87.0,82.8980344830855,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2009,78.0,80.00975164022526,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2010,82.0,78.94074187145594,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2011,82.0,81.51781148325131,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2012,85.0,81.10458455260505,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2013,74.0,80.08355002969594,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2014,79.0,79.05566060962512,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2015,80.0,80.47408335262907,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2016,86.0,80.02905491046994,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2017,95.0,81.88018432965899,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2018,76.0,81.95416116709391,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2019,84.0,78.16727417754845,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2020,91.0,78.85841102109181,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2021,76.0,78.47293756829635,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2022,79.0,79.17830280522145,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2023,83.0,77.32487002414614,
+Kagoshima,First bloom,AR(1) + trend + temperature (one-step),2024,88.0,77.52494584143847,
+Kagoshima,Full bloom,Temperature only,1991,95.0,91.62117145127091,
+Kagoshima,Full bloom,Temperature only,1992,93.0,91.33667334353638,
+Kagoshima,Full bloom,Temperature only,1993,100.0,92.29034907408442,
+Kagoshima,Full bloom,Temperature only,1994,94.0,92.53987176029072,
+Kagoshima,Full bloom,Temperature only,1995,100.0,92.23663767200505,
+Kagoshima,Full bloom,Temperature only,1996,90.0,92.77964457636311,
+Kagoshima,Full bloom,Temperature only,1997,89.0,90.79951158776045,
+Kagoshima,Full bloom,Temperature only,1998,99.0,89.85104851727912,
+Kagoshima,Full bloom,Temperature only,1999,96.0,90.6165744283587,
+Kagoshima,Full bloom,Temperature only,2000,96.0,92.53511735605406,
+Kagoshima,Full bloom,Temperature only,2001,95.0,90.89703654334012,
+Kagoshima,Full bloom,Temperature only,2002,91.0,90.2699420809187,
+Kagoshima,Full bloom,Temperature only,2003,92.0,91.20234710335566,
+Kagoshima,Full bloom,Temperature only,2004,96.0,90.71861224916462,
+Kagoshima,Full bloom,Temperature only,2005,99.0,92.69110811794977,
+Kagoshima,Full bloom,Temperature only,2006,88.0,91.01726425649971,
+Kagoshima,Full bloom,Temperature only,2007,94.0,89.82516183638005,
+Kagoshima,Full bloom,Temperature only,2008,102.0,92.19843297892452,
+Kagoshima,Full bloom,Temperature only,2009,91.0,89.37491354961941,
+Kagoshima,Full bloom,Temperature only,2010,96.0,89.57314738409788,
+Kagoshima,Full bloom,Temperature only,2011,95.0,91.93167319061115,
+Kagoshima,Full bloom,Temperature only,2012,95.0,91.55827822534692,
+Kagoshima,Full bloom,Temperature only,2013,85.0,90.08001413335971,
+Kagoshima,Full bloom,Temperature only,2014,90.0,90.61200619055299,
+Kagoshima,Full bloom,Temperature only,2015,90.0,91.5444804287143,
+Kagoshima,Full bloom,Temperature only,2016,96.0,90.99176900245547,
+Kagoshima,Full bloom,Temperature only,2017,105.0,92.25885591951469,
+Kagoshima,Full bloom,Temperature only,2018,88.0,91.12731725818296,
+Kagoshima,Full bloom,Temperature only,2019,99.0,89.7598221926134,
+Kagoshima,Full bloom,Temperature only,2020,109.0,89.45523720432874,
+Kagoshima,Full bloom,Temperature only,2021,89.0,88.10362834086727,
+Kagoshima,Full bloom,Temperature only,2022,91.0,91.1298090242588,
+Kagoshima,Full bloom,Temperature only,2023,95.0,88.73058437184004,
+Kagoshima,Full bloom,Temperature only,2024,102.0,88.45921815773511,
+Kagoshima,Full bloom,Trend only,1991,95.0,91.22072072072073,
+Kagoshima,Full bloom,Trend only,1992,93.0,91.13703176861074,
+Kagoshima,Full bloom,Trend only,1993,100.0,91.05334281650073,
+Kagoshima,Full bloom,Trend only,1994,94.0,90.96965386439072,
+Kagoshima,Full bloom,Trend only,1995,100.0,90.88596491228071,
+Kagoshima,Full bloom,Trend only,1996,90.0,90.80227596017072,
+Kagoshima,Full bloom,Trend only,1997,89.0,90.71858700806071,
+Kagoshima,Full bloom,Trend only,1998,99.0,90.6348980559507,
+Kagoshima,Full bloom,Trend only,1999,96.0,90.55120910384069,
+Kagoshima,Full bloom,Trend only,2000,96.0,90.46752015173068,
+Kagoshima,Full bloom,Trend only,2001,95.0,90.38383119962069,
+Kagoshima,Full bloom,Trend only,2002,91.0,90.30014224751068,
+Kagoshima,Full bloom,Trend only,2003,92.0,90.21645329540067,
+Kagoshima,Full bloom,Trend only,2004,96.0,90.13276434329066,
+Kagoshima,Full bloom,Trend only,2005,99.0,90.04907539118066,
+Kagoshima,Full bloom,Trend only,2006,88.0,89.96538643907066,
+Kagoshima,Full bloom,Trend only,2007,94.0,89.88169748696065,
+Kagoshima,Full bloom,Trend only,2008,102.0,89.79800853485064,
+Kagoshima,Full bloom,Trend only,2009,91.0,89.71431958274064,
+Kagoshima,Full bloom,Trend only,2010,96.0,89.63063063063063,
+Kagoshima,Full bloom,Trend only,2011,95.0,89.54694167852062,
+Kagoshima,Full bloom,Trend only,2012,95.0,89.46325272641062,
+Kagoshima,Full bloom,Trend only,2013,85.0,89.3795637743006,
+Kagoshima,Full bloom,Trend only,2014,90.0,89.29587482219061,
+Kagoshima,Full bloom,Trend only,2015,90.0,89.2121858700806,
+Kagoshima,Full bloom,Trend only,2016,96.0,89.1284969179706,
+Kagoshima,Full bloom,Trend only,2017,105.0,89.04480796586058,
+Kagoshima,Full bloom,Trend only,2018,88.0,88.96111901375059,
+Kagoshima,Full bloom,Trend only,2019,99.0,88.87743006164058,
+Kagoshima,Full bloom,Trend only,2020,109.0,88.79374110953057,
+Kagoshima,Full bloom,Trend only,2021,89.0,88.71005215742056,
+Kagoshima,Full bloom,Trend only,2022,91.0,88.62636320531057,
+Kagoshima,Full bloom,Trend only,2023,95.0,88.54267425320056,
+Kagoshima,Full bloom,Trend only,2024,102.0,88.45898530109055,
+Kagoshima,Full bloom,Trend + temperature,1991,95.0,90.74057476906455,
+Kagoshima,Full bloom,Trend + temperature,1992,93.0,90.432006141923,
+Kagoshima,Full bloom,Trend + temperature,1993,100.0,91.23730221969767,
+Kagoshima,Full bloom,Trend + temperature,1994,94.0,91.40914021694992,
+Kagoshima,Full bloom,Trend + temperature,1995,100.0,91.08371664844016,
+Kagoshima,Full bloom,Trend + temperature,1996,90.0,91.51957388268629,
+Kagoshima,Full bloom,Trend + temperature,1997,89.0,89.6856072962052,
+Kagoshima,Full bloom,Trend + temperature,1998,99.0,88.77973390099449,
+Kagoshima,Full bloom,Trend + temperature,1999,96.0,89.4157698662853,
+Kagoshima,Full bloom,Trend + temperature,2000,96.0,91.08906321762906,
+Kagoshima,Full bloom,Trend + temperature,2001,95.0,89.56280774099561,
+Kagoshima,Full bloom,Trend + temperature,2002,91.0,88.94603845921255,
+Kagoshima,Full bloom,Trend + temperature,2003,92.0,89.73219934750013,
+Kagoshima,Full bloom,Trend + temperature,2004,96.0,89.2443967768373,
+Kagoshima,Full bloom,Trend + temperature,2005,99.0,90.96622634736794,
+Kagoshima,Full bloom,Trend + temperature,2006,88.0,89.40779833042093,
+Kagoshima,Full bloom,Trend + temperature,2007,94.0,88.28274628363465,
+Kagoshima,Full bloom,Trend + temperature,2008,102.0,90.36511442980088,
+Kagoshima,Full bloom,Trend + temperature,2009,91.0,87.77243500360545,
+Kagoshima,Full bloom,Trend + temperature,2010,96.0,87.89813340403455,
+Kagoshima,Full bloom,Trend + temperature,2011,95.0,89.96723660398767,
+Kagoshima,Full bloom,Trend + temperature,2012,95.0,89.57869611108806,
+Kagoshima,Full bloom,Trend + temperature,2013,85.0,88.1962122107624,
+Kagoshima,Full bloom,Trend + temperature,2014,90.0,88.62216045718506,
+Kagoshima,Full bloom,Trend + temperature,2015,90.0,89.40838361213503,
+Kagoshima,Full bloom,Trend + temperature,2016,96.0,88.85852952114695,
+Kagoshima,Full bloom,Trend + temperature,2017,105.0,89.94577119330191,
+Kagoshima,Full bloom,Trend + temperature,2018,88.0,88.87520247609763,
+Kagoshima,Full bloom,Trend + temperature,2019,99.0,87.59236670684193,
+Kagoshima,Full bloom,Trend + temperature,2020,109.0,87.26572786485261,
+Kagoshima,Full bloom,Trend + temperature,2021,89.0,85.99718336817612,
+Kagoshima,Full bloom,Trend + temperature,2022,91.0,88.6669107934411,
+Kagoshima,Full bloom,Trend + temperature,2023,95.0,86.4559281547578,
+Kagoshima,Full bloom,Trend + temperature,2024,102.0,86.15917301645803,
+Kagoshima,Full bloom,Trend + temperature + selected period,1991,95.0,88.51236100032314,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,1992,93.0,89.61692317628643,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,1993,100.0,92.96453706545118,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,1994,94.0,93.13322467040697,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,1995,100.0,90.3084501370449,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,1996,90.0,89.40421308800269,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,1997,89.0,89.11909579515893,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,1998,99.0,90.49543214196929,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,1999,96.0,90.83728912926794,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2000,96.0,90.1076794985276,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2001,95.0,87.36743152242224,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2002,91.0,88.63619506297432,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2003,92.0,91.68975364063527,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2004,96.0,90.49013416411358,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2005,99.0,89.78473861214825,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2006,88.0,87.31738825112292,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2007,94.0,88.23897234408047,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2008,102.0,92.50490405578452,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2009,91.0,88.71210881743627,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2010,96.0,86.29143866550086,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2011,95.0,88.07488502713292,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2012,95.0,89.96291412298889,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2013,85.0,90.25018362484293,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2014,90.0,89.43137360353604,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2015,90.0,87.78244473036759,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2016,96.0,87.05684937520495,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2017,105.0,90.6744915010832,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2018,88.0,91.04572487300395,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2019,99.0,88.10034322497067,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2020,109.0,85.3430598114144,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2021,89.0,84.16947215489061,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2022,91.0,89.59241897203944,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2023,95.0,88.44915505566985,4.899999999999993
+Kagoshima,Full bloom,Trend + temperature + selected period,2024,102.0,86.32253608229311,4.899999999999993
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),1991,95.0,90.26561160499898,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),1992,93.0,90.86498157897216,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),1993,100.0,91.46496962239588,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),1994,94.0,92.5680854821476,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),1995,100.0,91.46359391163998,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),1996,90.0,92.71384892151946,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),1997,89.0,89.50869883492986,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),1998,99.0,88.44409159738241,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),1999,96.0,90.42307748294022,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2000,96.0,91.8035253585478,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2001,95.0,90.21810319787114,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2002,91.0,89.45664541810771,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2003,92.0,89.77715514023816,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2004,96.0,89.41034307193733,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2005,99.0,91.74963241880681,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2006,88.0,90.51959495191214,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2007,94.0,87.92809335765722,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2008,102.0,90.90485057556893,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2009,91.0,89.23884913197271,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2010,96.0,87.95886232524897,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2011,95.0,90.79200340518591,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2012,95.0,90.26986229504861,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2013,85.0,88.83519646532041,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2014,90.0,87.99975308442346,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2015,90.0,89.4876888491065,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2016,96.0,88.92610390447149,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2017,105.0,90.85938911001239,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2018,88.0,90.9191527729505,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2019,99.0,87.38396145866531,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2020,109.0,88.4832103254626,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2021,89.0,88.46508683922342,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2022,91.0,88.68536310175818,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2023,95.0,86.64136165505398,
+Kagoshima,Full bloom,AR(1) + trend + temperature (one-step),2024,102.0,86.86399879411533,
+Osaka,First bloom,Temperature only,1991,88.0,86.41269854719425,
+Osaka,First bloom,Temperature only,1992,85.0,84.62674448795642,
+Osaka,First bloom,Temperature only,1993,88.0,86.15486030051812,
+Osaka,First bloom,Temperature only,1994,90.0,89.52743851750337,
+Osaka,First bloom,Temperature only,1995,90.0,86.66379298619796,
+Osaka,First bloom,Temperature only,1996,90.0,90.44954957141752,
+Osaka,First bloom,Temperature only,1997,86.0,86.87802127659234,
+Osaka,First bloom,Temperature only,1998,84.0,81.9413292667801,
+Osaka,First bloom,Temperature only,1999,83.0,85.614681305956,
+Osaka,First bloom,Temperature only,2000,92.0,90.72193738935935,
+Osaka,First bloom,Temperature only,2001,84.0,85.98693948947447,
+Osaka,First bloom,Temperature only,2002,79.0,80.90368205958129,
+Osaka,First bloom,Temperature only,2003,86.0,88.10539427297569,
+Osaka,First bloom,Temperature only,2004,82.0,82.46891206885061,
+Osaka,First bloom,Temperature only,2005,93.0,88.06403225258475,
+Osaka,First bloom,Temperature only,2006,87.0,87.86351637112432,
+Osaka,First bloom,Temperature only,2007,86.0,80.99112676573387,
+Osaka,First bloom,Temperature only,2008,85.0,86.84990657495105,
+Osaka,First bloom,Temperature only,2009,83.0,83.41552562397462,
+Osaka,First bloom,Temperature only,2010,80.0,83.7731722242028,
+Osaka,First bloom,Temperature only,2011,90.0,87.44736349277792,
+Osaka,First bloom,Temperature only,2012,92.0,90.18302188979794,
+Osaka,First bloom,Temperature only,2013,80.0,85.88038732824998,
+Osaka,First bloom,Temperature only,2014,86.0,87.33727457908523,
+Osaka,First bloom,Temperature only,2015,85.0,84.59232006281471,
+Osaka,First bloom,Temperature only,2016,82.0,82.32088936619218,
+Osaka,First bloom,Temperature only,2017,89.0,87.65131122303167,
+Osaka,First bloom,Temperature only,2018,79.0,84.92096829005142,
+Osaka,First bloom,Temperature only,2019,86.0,81.94807307445254,
+Osaka,First bloom,Temperature only,2020,82.0,80.10771121515398,
+Osaka,First bloom,Temperature only,2021,78.0,76.88662062270024,
+Osaka,First bloom,Temperature only,2022,82.0,84.80407562372919,
+Osaka,First bloom,Temperature only,2023,78.0,78.64630483802787,
+Osaka,First bloom,Temperature only,2024,89.0,82.86023894992562,
+Osaka,First bloom,Trend only,1991,88.0,88.24997613365153,
+Osaka,First bloom,Trend only,1992,85.0,88.14744630071597,
+Osaka,First bloom,Trend only,1993,88.0,88.04491646778041,
+Osaka,First bloom,Trend only,1994,90.0,87.94238663484485,
+Osaka,First bloom,Trend only,1995,90.0,87.83985680190929,
+Osaka,First bloom,Trend only,1996,90.0,87.73732696897373,
+Osaka,First bloom,Trend only,1997,86.0,87.63479713603817,
+Osaka,First bloom,Trend only,1998,84.0,87.53226730310261,
+Osaka,First bloom,Trend only,1999,83.0,87.42973747016705,
+Osaka,First bloom,Trend only,2000,92.0,87.3272076372315,
+Osaka,First bloom,Trend only,2001,84.0,87.22467780429594,
+Osaka,First bloom,Trend only,2002,79.0,87.12214797136038,
+Osaka,First bloom,Trend only,2003,86.0,87.01961813842482,
+Osaka,First bloom,Trend only,2004,82.0,86.91708830548926,
+Osaka,First bloom,Trend only,2005,93.0,86.8145584725537,
+Osaka,First bloom,Trend only,2006,87.0,86.71202863961814,
+Osaka,First bloom,Trend only,2007,86.0,86.60949880668258,
+Osaka,First bloom,Trend only,2008,85.0,86.50696897374702,
+Osaka,First bloom,Trend only,2009,83.0,86.40443914081146,
+Osaka,First bloom,Trend only,2010,80.0,86.3019093078759,
+Osaka,First bloom,Trend only,2011,90.0,86.19937947494034,
+Osaka,First bloom,Trend only,2012,92.0,86.09684964200478,
+Osaka,First bloom,Trend only,2013,80.0,85.99431980906922,
+Osaka,First bloom,Trend only,2014,86.0,85.89178997613367,
+Osaka,First bloom,Trend only,2015,85.0,85.7892601431981,
+Osaka,First bloom,Trend only,2016,82.0,85.68673031026255,
+Osaka,First bloom,Trend only,2017,89.0,85.58420047732699,
+Osaka,First bloom,Trend only,2018,79.0,85.48167064439143,
+Osaka,First bloom,Trend only,2019,86.0,85.37914081145587,
+Osaka,First bloom,Trend only,2020,82.0,85.27661097852031,
+Osaka,First bloom,Trend only,2021,78.0,85.17408114558475,
+Osaka,First bloom,Trend only,2022,82.0,85.07155131264919,
+Osaka,First bloom,Trend only,2023,78.0,84.96902147971363,
+Osaka,First bloom,Trend only,2024,89.0,84.86649164677807,
+Osaka,First bloom,Trend + temperature,1991,88.0,85.95495751591112,
+Osaka,First bloom,Trend + temperature,1992,85.0,84.14995575428625,
+Osaka,First bloom,Trend + temperature,1993,88.0,85.62825674862252,
+Osaka,First bloom,Trend + temperature,1994,90.0,88.93389655293447,
+Osaka,First bloom,Trend + temperature,1995,90.0,86.06120837635969,
+Osaka,First bloom,Trend + temperature,1996,90.0,89.7761906893106,
+Osaka,First bloom,Trend + temperature,1997,86.0,86.20219158138246,
+Osaka,First bloom,Trend + temperature,1998,84.0,81.27570264640035,
+Osaka,First bloom,Trend + temperature,1999,83.0,84.87932395307067,
+Osaka,First bloom,Trend + temperature,2000,92.0,89.90353724552172,
+Osaka,First bloom,Trend + temperature,2001,84.0,85.17686993549101,
+Osaka,First bloom,Trend + temperature,2002,79.0,80.10517626243886,
+Osaka,First bloom,Trend + temperature,2003,86.0,87.20440120215648,
+Osaka,First bloom,Trend + temperature,2004,82.0,81.58461877534633,
+Osaka,First bloom,Trend + temperature,2005,93.0,87.09216694217068,
+Osaka,First bloom,Trend + temperature,2006,87.0,86.85788448939248,
+Osaka,First bloom,Trend + temperature,2007,86.0,80.01366856128026,
+Osaka,First bloom,Trend + temperature,2008,85.0,85.7824285940192,
+Osaka,First bloom,Trend + temperature,2009,83.0,82.34430358333418,
+Osaka,First bloom,Trend + temperature,2010,80.0,82.6630017511508,
+Osaka,First bloom,Trend + temperature,2011,90.0,86.26745449599413,
+Osaka,First bloom,Trend + temperature,2012,92.0,88.94208750771766,
+Osaka,First bloom,Trend + temperature,2013,80.0,84.6437695672696,
+Osaka,First bloom,Trend + temperature,2014,86.0,86.0515032706113,
+Osaka,First bloom,Trend + temperature,2015,85.0,83.29640420707481,
+Osaka,First bloom,Trend + temperature,2016,82.0,81.01043286932745,
+Osaka,First bloom,Trend + temperature,2017,89.0,86.25574011190731,
+Osaka,First bloom,Trend + temperature,2018,79.0,83.51511698084715,
+Osaka,First bloom,Trend + temperature,2019,86.0,80.5341933706803,
+Osaka,First bloom,Trend + temperature,2020,82.0,78.67528891937314,
+Osaka,First bloom,Trend + temperature,2021,78.0,75.44847412514329,
+Osaka,First bloom,Trend + temperature,2022,82.0,83.25679704954634,
+Osaka,First bloom,Trend + temperature,2023,78.0,77.12056557285212,
+Osaka,First bloom,Trend + temperature,2024,89.0,81.25975030390704,
+Osaka,First bloom,Trend + temperature + selected period,1991,88.0,83.37821714017925,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,1992,85.0,82.26628317625216,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,1993,88.0,86.91137437570058,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,1994,90.0,91.28899816047029,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,1995,90.0,85.94026051989817,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,1996,90.0,86.89794929028571,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,1997,86.0,84.46982820507105,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,1998,84.0,82.91079957544682,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,1999,83.0,87.18274126707514,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2000,92.0,89.26095171129748,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2001,84.0,82.29139385914311,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2002,79.0,78.79301222104023,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2003,86.0,88.85577299265547,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2004,82.0,83.77262690731072,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2005,93.0,86.13177208930638,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2006,87.0,83.82091011447935,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2007,86.0,78.96212414085281,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2008,85.0,87.63782430577825,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2009,83.0,84.25711242612698,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2010,80.0,81.4435366959591,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2011,90.0,83.19129510805675,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2012,92.0,87.8961514247962,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2013,80.0,86.65885163687236,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2014,86.0,87.56559861106311,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2015,85.0,81.68213969299293,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2016,82.0,78.07901655681414,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2017,89.0,85.57241208540555,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2018,79.0,85.65067161135163,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2019,86.0,81.8940355125564,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2020,82.0,76.84440819416383,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2021,78.0,72.71442290111332,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2022,82.0,82.94923894334823,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2023,78.0,79.49284184058178,4.899999999999993
+Osaka,First bloom,Trend + temperature + selected period,2024,89.0,82.25119795771872,4.899999999999993
+Osaka,First bloom,AR(1) + trend + temperature (one-step),1991,88.0,85.78351517385207,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),1992,85.0,84.1180108574234,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),1993,88.0,85.54698645387765,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),1994,90.0,88.91223871605189,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),1995,90.0,86.07135799086997,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),1996,90.0,89.793657112307,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),1997,86.0,86.21500138585628,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),1998,84.0,81.21101004315852,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),1999,83.0,84.78645318434839,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2000,92.0,89.80247790416963,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2001,84.0,85.22816471461653,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2002,79.0,80.00810602159872,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2003,86.0,87.03192687022069,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2004,82.0,81.52771942204676,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2005,93.0,86.97490491226891,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2006,87.0,86.9356681519606,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2007,86.0,79.97548757005427,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2008,85.0,85.73728207842412,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2009,83.0,82.27706762417205,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2010,80.0,82.56219156563756,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2011,90.0,86.12081148876614,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2012,92.0,88.97761257343498,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2013,80.0,84.70876023811438,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2014,86.0,85.908148426302,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2015,85.0,83.25567406291364,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2016,82.0,80.94950589554747,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2017,89.0,86.15167570695154,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2018,79.0,83.53135707730775,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2019,86.0,80.37019085869754,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2020,82.0,78.63303928597286,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2021,78.0,75.33151409611904,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2022,82.0,83.08325376892219,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2023,78.0,77.00878084690905,
+Osaka,First bloom,AR(1) + trend + temperature (one-step),2024,89.0,81.08535512505759,
+Osaka,Full bloom,Temperature only,1991,96.0,95.04712686133144,
+Osaka,Full bloom,Temperature only,1992,92.0,94.01343107381909,
+Osaka,Full bloom,Temperature only,1993,97.0,94.89789216625623,
+Osaka,Full bloom,Temperature only,1994,96.0,96.84991320393135,
+Osaka,Full bloom,Temperature only,1995,97.0,95.19245829498357,
+Osaka,Full bloom,Temperature only,1996,99.0,97.3836236356859,
+Osaka,Full bloom,Temperature only,1997,94.0,95.31645189952296,
+Osaka,Full bloom,Temperature only,1998,93.0,92.45913442912482,
+Osaka,Full bloom,Temperature only,1999,88.0,94.58524092626867,
+Osaka,Full bloom,Temperature only,2000,98.0,97.54127950511868,
+Osaka,Full bloom,Temperature only,2001,94.0,94.80070095682188,
+Osaka,Full bloom,Temperature only,2002,87.0,91.85855260482913,
+Osaka,Full bloom,Temperature only,2003,92.0,96.0268454785209,
+Osaka,Full bloom,Temperature only,2004,92.0,92.76449509461527,
+Osaka,Full bloom,Temperature only,2005,98.0,96.0029054751261,
+Osaka,Full bloom,Temperature only,2006,94.0,95.88684850214695,
+Osaka,Full bloom,Temperature only,2007,93.0,91.90916489461488,
+Osaka,Full bloom,Temperature only,2008,92.0,95.30017933724542,
+Osaka,Full bloom,Temperature only,2009,96.0,93.31238737620697,
+Osaka,Full bloom,Temperature only,2010,94.0,93.51939034034355,
+Osaka,Full bloom,Temperature only,2011,97.0,95.6459825766867,
+Osaka,Full bloom,Temperature only,2012,99.0,97.22935956583453,
+Osaka,Full bloom,Temperature only,2013,88.0,94.73902942633745,
+Osaka,Full bloom,Temperature only,2014,92.0,95.58226400243373,
+Osaka,Full bloom,Temperature only,2015,91.0,93.99350649453191,
+Osaka,Full bloom,Temperature only,2016,91.0,92.67882074963268,
+Osaka,Full bloom,Temperature only,2017,96.0,95.76402587603448,
+Osaka,Full bloom,Temperature only,2018,85.0,94.18372543454932,
+Osaka,Full bloom,Temperature only,2019,94.0,92.46303769054789,
+Osaka,Full bloom,Temperature only,2020,93.0,91.39785110771543,
+Osaka,Full bloom,Temperature only,2021,87.0,89.53350988382303,
+Osaka,Full bloom,Temperature only,2022,89.0,94.11606890321617,
+Osaka,Full bloom,Temperature only,2023,86.0,90.55200089781496,
+Osaka,Full bloom,Temperature only,2024,96.0,92.99099193333026,
+Osaka,Full bloom,Trend only,1991,96.0,96.33355608591884,
+Osaka,Full bloom,Trend only,1992,92.0,96.29050119331743,
+Osaka,Full bloom,Trend only,1993,97.0,96.24744630071599,
+Osaka,Full bloom,Trend only,1994,96.0,96.20439140811456,
+Osaka,Full bloom,Trend only,1995,97.0,96.16133651551313,
+Osaka,Full bloom,Trend only,1996,99.0,96.1182816229117,
+Osaka,Full bloom,Trend only,1997,94.0,96.07522673031026,
+Osaka,Full bloom,Trend only,1998,93.0,96.03217183770883,
+Osaka,Full bloom,Trend only,1999,88.0,95.98911694510741,
+Osaka,Full bloom,Trend only,2000,98.0,95.94606205250598,
+Osaka,Full bloom,Trend only,2001,94.0,95.90300715990455,
+Osaka,Full bloom,Trend only,2002,87.0,95.85995226730311,
+Osaka,Full bloom,Trend only,2003,92.0,95.81689737470168,
+Osaka,Full bloom,Trend only,2004,92.0,95.77384248210025,
+Osaka,Full bloom,Trend only,2005,98.0,95.73078758949883,
+Osaka,Full bloom,Trend only,2006,94.0,95.6877326968974,
+Osaka,Full bloom,Trend only,2007,93.0,95.64467780429597,
+Osaka,Full bloom,Trend only,2008,92.0,95.60162291169453,
+Osaka,Full bloom,Trend only,2009,96.0,95.5585680190931,
+Osaka,Full bloom,Trend only,2010,94.0,95.51551312649167,
+Osaka,Full bloom,Trend only,2011,97.0,95.47245823389024,
+Osaka,Full bloom,Trend only,2012,99.0,95.42940334128882,
+Osaka,Full bloom,Trend only,2013,88.0,95.38634844868739,
+Osaka,Full bloom,Trend only,2014,92.0,95.34329355608595,
+Osaka,Full bloom,Trend only,2015,91.0,95.30023866348452,
+Osaka,Full bloom,Trend only,2016,91.0,95.25718377088309,
+Osaka,Full bloom,Trend only,2017,96.0,95.21412887828166,
+Osaka,Full bloom,Trend only,2018,85.0,95.17107398568024,
+Osaka,Full bloom,Trend only,2019,94.0,95.1280190930788,
+Osaka,Full bloom,Trend only,2020,93.0,95.08496420047737,
+Osaka,Full bloom,Trend only,2021,87.0,95.04190930787594,
+Osaka,Full bloom,Trend only,2022,89.0,94.99885441527451,
+Osaka,Full bloom,Trend only,2023,86.0,94.95579952267308,
+Osaka,Full bloom,Trend only,2024,96.0,94.91274463007164,
+Osaka,Full bloom,Trend + temperature,1991,96.0,94.99520951505455,
+Osaka,Full bloom,Trend + temperature,1992,92.0,93.95935332221906,
+Osaka,Full bloom,Trend + temperature,1993,97.0,94.83816437895744,
+Osaka,Full bloom,Trend + temperature,1994,96.0,96.78259320944011,
+Osaka,Full bloom,Trend + temperature,1995,97.0,95.12411267658358,
+Osaka,Full bloom,Trend + temperature,1996,99.0,97.30725074389385,
+Osaka,Full bloom,Trend + temperature,1997,94.0,95.2397987661736,
+Osaka,Full bloom,Trend + temperature,1998,93.0,92.38363853651389,
+Osaka,Full bloom,Trend + temperature,1999,88.0,94.50183611936293,
+Osaka,Full bloom,Trend + temperature,2000,98.0,97.44845591982292,
+Osaka,Full bloom,Trend + temperature,2001,94.0,94.70882223355203,
+Osaka,Full bloom,Trend + temperature,2002,87.0,91.76798545191706,
+Osaka,Full bloom,Trend + temperature,2003,92.0,95.92465413875904,
+Osaka,Full bloom,Trend + temperature,2004,92.0,92.66419785667594,
+Osaka,Full bloom,Trend + temperature,2005,98.0,95.89267575044131,
+Osaka,Full bloom,Trend + temperature,2006,94.0,95.77278894649687,
+Osaka,Full bloom,Trend + temperature,2007,93.0,91.79830081950772,
+Osaka,Full bloom,Trend + temperature,2008,92.0,95.1791051485854,
+Osaka,Full bloom,Trend + temperature,2009,96.0,93.19088853336243,
+Osaka,Full bloom,Trend + temperature,2010,94.0,93.39347393578996,
+Osaka,Full bloom,Trend + temperature,2011,97.0,95.51215637415133,
+Osaka,Full bloom,Trend + temperature,2012,99.0,97.08861181630294,
+Osaka,Full bloom,Trend + temperature,2013,88.0,94.59877127135185,
+Osaka,Full bloom,Trend + temperature,2014,92.0,95.4364308135937,
+Osaka,Full bloom,Trend + temperature,2015,91.0,93.84652270319566,
+Osaka,Full bloom,Trend + temperature,2016,91.0,92.53018774739161,
+Osaka,Full bloom,Trend + temperature,2017,96.0,95.60573910758121,
+Osaka,Full bloom,Trend + temperature,2018,85.0,94.02427267797823,
+Osaka,Full bloom,Trend + temperature,2019,94.0,92.30267434717697,
+Osaka,Full bloom,Trend + temperature,2020,93.0,91.23538464903609,
+Osaka,Full bloom,Trend + temperature,2021,87.0,89.37039418169499,
+Osaka,Full bloom,Trend + temperature,2022,89.0,93.94057535548353,
+Osaka,Full bloom,Trend + temperature,2023,86.0,90.37895035537977,
+Osaka,Full bloom,Trend + temperature,2024,96.0,92.80946325757519,
+Osaka,Full bloom,Trend + temperature + selected period,1991,96.0,92.22935550267522,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,1992,92.0,94.7237016966948,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,1993,97.0,98.27993875036601,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,1994,96.0,97.8252489615652,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,1995,97.0,92.61291996629846,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,1996,99.0,95.20196143543797,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,1997,94.0,97.32293185123099,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,1998,93.0,95.87843417001648,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,1999,88.0,94.31499746701331,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2000,98.0,94.33955055384034,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2001,94.0,94.20369558900455,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2002,87.0,95.22010297722952,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2003,92.0,98.25573537281771,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2004,92.0,91.32347702663193,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2005,98.0,93.2535601817669,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2006,94.0,96.70801488114998,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2007,93.0,95.66929234669314,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2008,92.0,96.29611015126349,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2009,96.0,90.89157425006339,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2010,94.0,91.95279854788372,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2011,97.0,97.87239157948173,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2012,99.0,100.17940742142285,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2013,88.0,94.32170434093531,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2014,92.0,92.64466176212328,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2015,91.0,93.76288055045468,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2016,91.0,96.13525358075752,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2017,96.0,97.92899927815078,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2018,85.0,92.51655052228048,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2019,94.0,90.22883246422145,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2020,93.0,92.94038858135768,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2021,87.0,93.59804942828481,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2022,89.0,95.09392907526524,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2023,86.0,88.38785878891508,4.649999999999994
+Osaka,Full bloom,Trend + temperature + selected period,2024,96.0,91.72697247552584,4.649999999999994
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),1991,96.0,93.71941128642092,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),1992,92.0,93.6773534777036,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),1993,97.0,93.9855827232152,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),1994,96.0,96.6711083624823,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),1995,97.0,94.84440266864429,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),1996,99.0,97.19425637511509,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),1997,94.0,95.38659315309144,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),1998,93.0,91.77051067648615,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),1999,88.0,93.7660116044318,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2000,98.0,96.02266267206026,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2001,94.0,94.68923217634475,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2002,87.0,91.13176706998681,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2003,92.0,94.32442494670624,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2004,92.0,91.74231968564828,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2005,98.0,95.00580025781859,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2006,94.0,95.74643929429836,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2007,93.0,91.14286199733598,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2008,92.0,94.41619061360777,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2009,96.0,92.2557738120582,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2010,94.0,93.0341430876541,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2011,97.0,94.88582000346743,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2012,99.0,96.91030684641694,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2013,88.0,94.6751630901318,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2014,92.0,93.93154174391155,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2015,91.0,92.89580868821935,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2016,91.0,91.4153731953777,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2017,96.0,94.52408367823354,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2018,85.0,93.64120878191588,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2019,94.0,90.3074772675777,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2020,93.0,90.52223644254991,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2021,87.0,88.4865313013487,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2022,89.0,92.24200134202809,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2023,86.0,88.92215258412435,
+Osaka,Full bloom,AR(1) + trend + temperature (one-step),2024,96.0,90.94510442113562,

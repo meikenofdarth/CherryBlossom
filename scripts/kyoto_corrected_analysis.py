@@ -59,6 +59,25 @@ print(f"Slope (days/°C): {slope_obs:.2f}")
 print(f"R-squared: {r2_obs:.4f}")
 print(f"RMSE: {rmse_obs:.2f} days\n")
 
+# Observed-only temperature figure for the report.
+plt.figure(figsize=(8, 5))
+plt.scatter(df_obs['Temp_March'], df_obs['DOY'], alpha=0.7, color='darkgreen')
+order = np.argsort(df_obs['Temp_March'].to_numpy())
+plt.plot(
+    df_obs['Temp_March'].to_numpy()[order],
+    y_pred_obs[order],
+    color='black',
+    linewidth=2,
+)
+plt.title('Kyoto Full Bloom DOY vs March Temperature (Observed Years)')
+plt.xlabel('March Mean Temperature (°C)')
+plt.ylabel('Full Bloom DOY')
+plt.grid(True, alpha=0.3)
+plt.tight_layout()
+plt.savefig('plots/kyoto_observed_doy_vs_temperature.png', dpi=300)
+plt.close()
+print('Saved plots/kyoto_observed_doy_vs_temperature.png\n')
+
 # 3. Residuals vs Year and Durbin-Watson
 residuals = y_obs - y_pred_obs
 dw_stat = durbin_watson(residuals)

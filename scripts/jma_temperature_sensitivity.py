@@ -4,47 +4,16 @@ import statsmodels.api as sm
 import matplotlib.pyplot as plt
 import os
 
-# --- 1. Load Data ---
-df1 = pd.read_csv('data/JMA-kaggle_dataest/sakura_first_bloom_dates.csv')
-df2 = pd.read_csv('data/JMA-kaggle_dataest/sakura_full_bloom_dates.csv')
-df_temp = pd.read_csv('data/jma_temperatures.csv')
+# --- 1. Load canonical station-year weather data ---
+weather_file = os.environ.get('WEATHER_FILE', 'data/station_year_weather.csv')
+df_merged = pd.read_csv(weather_file)
+df_merged = df_merged[df_merged['Main_Analysis_Eligible']].copy()
 
-cols_to_drop = ['30 Year Average 1991-2020', 'Notes']
-id_vars = ['Site Name', 'Currently Being Observed']
-
-df1_melt = df1.drop(columns=cols_to_drop, errors='ignore').melt(
-    id_vars=id_vars, var_name='Year', value_name='First_Bloom_Date'
-)
-df2_melt = df2.drop(columns=cols_to_drop, errors='ignore').melt(
-    id_vars=id_vars, var_name='Year', value_name='Full_Bloom_Date'
-)
-
-df = pd.merge(df1_melt, df2_melt, on=['Site Name', 'Currently Being Observed', 'Year'])
-
-df['First_DT'] = pd.to_datetime(df['First_Bloom_Date'], errors='coerce')
-df['Full_DT'] = pd.to_datetime(df['Full_Bloom_Date'], errors='coerce')
-df['Year'] = pd.to_numeric(df['Year'], errors='coerce')
-df = df.dropna(subset=['Year'])
-
-def safe_doy(dt_series):
-    norm = pd.to_datetime({'year': 2001, 'month': dt_series.dt.month, 'day': dt_series.dt.day})
-    return norm.dt.dayofyear
-
-df['First_DOY'] = safe_doy(df['First_DT'])
-df['Full_DOY'] = safe_doy(df['Full_DT'])
-df['Duration_DT'] = (df['Full_DT'] - df['First_DT']).dt.days
-
-df_valid = df.dropna(subset=['First_DOY', 'Full_DOY', 'Duration_DT'])
-
-# --- 2. Prepare Temperature Data ---
-# Average Feb and March temps to represent the late-winter/early-spring warming phase
-df_temp['Feb_Mar_Temp'] = (df_temp['Feb_Temp'] + df_temp['Mar_Temp']) / 2
-df_merged = pd.merge(df_valid, df_temp, on=['Site Name', 'Year'])
+results = []
 
 print("=== STATION TEMPERATURE SENSITIVITY ===")
 print("Comparing bloom timings against spring temperatures:\n")
 
-results = []
 for site, group in df_merged.groupby('Site Name'):
     # Regress Full DOY vs March Temp (How much does a warmer March advance the bloom?)
     X_march = sm.add_constant(group['Mar_Temp'])
@@ -52,7 +21,21 @@ for site, group in df_merged.groupby('Site Name'):
     
     # Regress Duration vs Feb-Mar Mean Temp (Does a warmer late winter stretch the bloom?)
     X_fm = sm.add_constant(group['Feb_Mar_Temp'])
-    mod_dur = sm.OLS(group['Duration_DT'], X_fm).fit()
+    mod_dur = sm.OLS(group['Duration_Days'], X_fm).fit()
+
+    results.append({
+        'Site Name': site,
+        'Species': group['Species'].iloc[0],
+        'n_years': len(group),
+        'Bloom_Temp_Slope': mod_march.params.iloc[1],
+        'Bloom_Temp_R2': mod_march.rsquared,
+        'Bloom_Temp_CI_Lower': mod_march.conf_int().iloc[1, 0],
+        'Bloom_Temp_CI_Upper': mod_march.conf_int().iloc[1, 1],
+        'Duration_Temp_Slope': mod_dur.params.iloc[1],
+        'Duration_Temp_R2': mod_dur.rsquared,
+        'Duration_Temp_CI_Lower': mod_dur.conf_int().iloc[1, 0],
+        'Duration_Temp_CI_Upper': mod_dur.conf_int().iloc[1, 1],
+    })
     
     print(f"{site.upper()}:")
     print(f"  DOY vs March Temp:   {mod_march.params.iloc[1]:.2f} days/°C (R² = {mod_march.rsquared:.2f})")
@@ -82,8 +65,8 @@ axes[0].legend()
 for site, color in zip(sites_to_plot, colors):
     subset = df_merged[df_merged['Site Name'] == site]
     if not subset.empty:
-        axes[1].scatter(subset['Feb_Mar_Temp'], subset['Duration_DT'], label=site, alpha=0.6, color=color)
-        z = np.polyfit(subset['Feb_Mar_Temp'], subset['Duration_DT'], 1)
+        axes[1].scatter(subset['Feb_Mar_Temp'], subset['Duration_Days'], label=site, alpha=0.6, color=color)
+        z = np.polyfit(subset['Feb_Mar_Temp'], subset['Duration_Days'], 1)
         axes[1].plot(subset['Feb_Mar_Temp'], np.poly1d(z)(subset['Feb_Mar_Temp']), color=color)
 
 axes[1].set_title('Bloom Duration vs Feb-Mar Mean Temperature')
@@ -93,4 +76,7 @@ axes[1].legend()
 
 plt.tight_layout()
 plt.savefig('plots/temperature_sensitivity.png', dpi=300)
+suffix = '_jma' if weather_file.endswith('weather_jma.csv') else ''
+pd.DataFrame(results).to_csv(f'data/station_temperature_sensitivity{suffix}.csv', index=False)
 print("Plots saved to plots/temperature_sensitivity.png")
+print(f"Saved data/station_temperature_sensitivity{suffix}.csv")

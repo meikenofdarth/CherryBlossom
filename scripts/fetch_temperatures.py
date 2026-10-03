@@ -4,17 +4,20 @@ import time
 import os
 
 csv_path = 'data/jma_temperatures.csv'
+coords_path = 'data/JMA-kaggle_dataest/station_coords_template.csv'
 
-# Target stations and their coordinates
+# Target stations. Coordinates come from the verified official JMA table.
+target_sites = [
+    'Aomori', 'Asahikawa', 'Yamagata', 'Kagoshima',
+    'Fukuoka', 'Kyoto', 'Osaka', 'Matsue',
+    'Wakkanai', 'Iwamizawa', 'Urakawa', 'Akita',
+    'Nagano', 'Fukui', 'Miyazaki', 'Oita',
+    'Nara', 'Kobe', 'Shizuoka', 'Kochi',
+]
+coords = pd.read_csv(coords_path).set_index('Site Name')
 stations = {
-    'Aomori': {'lat': 40.8246, 'lon': 140.7406},
-    'Asahikawa': {'lat': 43.7706, 'lon': 142.3649},
-    'Yamagata': {'lat': 38.2404, 'lon': 140.3633},
-    'Kagoshima': {'lat': 31.5601, 'lon': 130.5581},
-    'Fukuoka': {'lat': 33.5819, 'lon': 130.3253},
-    'Kyoto': {'lat': 35.0116, 'lon': 135.7681},
-    'Osaka': {'lat': 34.6937, 'lon': 135.5023},
-    'Matsue': {'lat': 35.4681, 'lon': 133.0483}
+    site: {'lat': coords.loc[site, 'Latitude'], 'lon': coords.loc[site, 'Longitude']}
+    for site in target_sites
 }
 
 # Check what we already successfully downloaded
@@ -24,18 +27,17 @@ if os.path.exists(csv_path):
     existing_df = pd.read_csv(csv_path)
     if not existing_df.empty and 'Site Name' in existing_df.columns:
         completed = existing_df['Site Name'].unique().tolist()
+
+pending_sites = [site for site in target_sites if site not in completed]
         
 start_date = "1953-01-01"
 end_date = "2024-12-31"
 
 results = []
 
-for name, coords in stations.items():
-    if name in completed:
-        print(f"Skipping {name} (already downloaded).")
-        continue
-        
-    print(f"Fetching Open-Meteo data for {name}...")
+for name in pending_sites:
+    coords = stations[name]
+    print(f"Fetching Open-Meteo data for {name} at {coords['lat']:.4f}, {coords['lon']:.4f}...")
     url = "https://archive-api.open-meteo.com/v1/archive"
     params = {
         "latitude": coords['lat'],

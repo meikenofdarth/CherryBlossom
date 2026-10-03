@@ -1,0 +1,11 @@
+Daily rows: 85216
+Daily stations: 20
+Daily year range: 1953-2024
+Month blocks: 2878/2880
+Monthly station-years: 1439
+Joined eligible station-years: 1355
+Joined stations: 20
+Joined rows missing Feb/Mar: 0
+Missing month blocks by station:
+('Nara', 1953, 2)
+('Nara', 1953, 3)

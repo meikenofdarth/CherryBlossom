@@ -1,0 +1,18 @@
+Rows: 7446
+Stations: 102
+Unique station-year duplicates: 0
+Rows with both bloom dates: 6116
+Negative datetime durations: 0
+Zero datetime durations: 1
+Missing coordinate stations: 11
+Main-analysis eligible rows: 5674
+Main-analysis eligible stations: 91
+Trend-analysis eligible rows (n >= 15): 5673
+Trend-analysis eligible stations (n >= 15): 90
+Species counts:
+Species
+Kurile Island Cherry (Cerasus nipponica var. kurilensis)                   1
+Not stated                                                                81
+Sargent cherry (Prunus sargentii)                                         10
+Taiwan cherry (Prunus campanulata)                                         9
+Until 1994 Sargent Cherry, from 1995 to 2006 they were Yoshino Cherry.     1
